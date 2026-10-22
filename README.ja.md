@@ -119,9 +119,9 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 詳しい資料（[トラブルシューティング](./skills/xiaoxiaodong-vps/references/troubleshooting.md)、[設計の説明](./skills/xiaoxiaodong-vps/references/design.md)）は現在中国語のみです。AI に読んでもらえます。
 
-## 困ったときは
+## フィードバック・ご提案
 
-分からない、操作のしかたが分からない、問題がどうしても解決しない――そんなときは WeChat で Xiaoxiaodong（小小东）を追加してください。
+ご提案や、分かりにくい箇所・手順どおりにやってもうまくいかない箇所があれば、[GitHub で Issue を作成](https://github.com/nevertoday/xiaoxiaodong-vps/issues)してください。WeChat で Xiaoxiaodong（小小东）を追加して伝えていただいても構いません。ガイドに反映します。
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Xiaoxiaodong の WeChat QR コード">
 

@@ -119,9 +119,9 @@ N'affichez ni mots de passe, ni URLs d'abonnement, ni clés dans la discussion. 
 
 La documentation détaillée ([dépannage](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [notes de conception](./skills/xiaoxiaodong-vps/references/design.md)) n'existe pour l'instant qu'en chinois ; votre IA peut la lire pour vous.
 
-## Besoin d'aide ?
+## Retours et suggestions
 
-Vous ne comprenez pas, ne savez pas quoi faire, ou un problème ne se règle pas ? Ajoutez Xiaoxiaodong (小小东) sur WeChat.
+Une suggestion, ou un point peu clair ou qui ne fonctionne pas comme indiqué ? [Ouvrez une issue sur GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), ou ajoutez Xiaoxiaodong (小小东) sur WeChat. Nous l'ajouterons au guide.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="QR code WeChat de Xiaoxiaodong">
 

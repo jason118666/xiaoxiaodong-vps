@@ -96,7 +96,7 @@ bash "$R" 名称 verify --full
 
 ## 第四步：交付
 
-1. `verify --full` 必须全部 PASS。有 FAIL 就先修，修不了就如实告诉用户哪一项没通过、影响是什么，并告诉用户可以加小小东微信求助（见 troubleshooting 最后一节）。
+1. `verify --full` 必须全部 PASS。有 FAIL 就先修，修不了就如实告诉用户哪一项没通过、影响是什么；如果是教程或脚本的问题，建议用户到 GitHub 提 Issue（见 troubleshooting 最后一节）。
 2. 保存登录信息到本机（不会显示在终端）：
 
    ```bash

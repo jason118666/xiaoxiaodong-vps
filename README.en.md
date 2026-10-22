@@ -120,9 +120,9 @@ Please talk to me in English.
 
 Detailed docs ([troubleshooting](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [design notes](./skills/xiaoxiaodong-vps/references/design.md)) are currently in Chinese; your AI can read them for you.
 
-## Need help?
+## Feedback and suggestions
 
-Confused, not sure what to do, or stuck on a problem that won't go away? Add Xiaoxiaodong (小小东) on WeChat.
+Have a suggestion, or found something unclear or not working as written? [Open an issue on GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), or add Xiaoxiaodong (小小东) on WeChat. We'll add it to the guide.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Xiaoxiaodong's WeChat QR code">
 

@@ -210,31 +210,29 @@
   }
   .feedback a { color: var(--ink); }
 
-  /* ---------- 联系小小东 ---------- */
+  /* ---------- 反馈与建议 ---------- */
   .contact {
     display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-4) var(--space-6); align-items: center;
     margin-top: var(--space-8); padding: var(--space-5, 20px) var(--space-6); border: 1px solid var(--line); background: var(--wash);
   }
   .contact h2 { margin: 0 0 8px; }
-  .contact p { margin: 0; line-height: 1.75; }
-  .contact__text p { color: var(--ink); }
+  .contact__text p { margin: 0; color: var(--ink); line-height: 1.75; }
+  .contact__btn { margin-top: var(--space-3); }
   .contact__qr { margin: 0; text-align: center; }
-  .contact__qr img, .contact-fold img { display: block; height: auto; padding: 8px; background: #fff; border: 1px solid var(--line); }
+  .contact__qr img, .feedback__qr img { display: block; height: auto; padding: 8px; background: #fff; border: 1px solid var(--line); }
   .contact__qr img { width: 160px; margin: 0 auto; }
   .contact__qr figcaption { max-width: 180px; margin-top: 8px; color: var(--muted); font-size: var(--text-xs); line-height: 18px; }
   .contact__mobile { display: none; }
-  .contact__qr .contact__mobile { margin-top: 2px; }
-  .contact-fold { max-width: var(--read-width, 680px); margin-top: 8px; color: var(--muted); font-size: var(--text-sm); line-height: 20px; }
-  .contact-fold summary { display: flex; flex-wrap: wrap; gap: 4px 8px; padding: 0 var(--space-4); cursor: pointer; list-style: none; }
-  .contact-fold summary::-webkit-details-marker { display: none; }
-  .contact-fold summary span { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
-  .contact-fold summary span::after { content: " ▸"; text-decoration: none; display: inline-block; margin-left: 2px; }
-  .contact-fold[open] summary span::after { content: " ▾"; }
-  .contact-fold__body { display: flex; gap: var(--space-4); align-items: center; margin-top: 8px; padding: var(--space-3) var(--space-4); background: var(--wash); }
-  .contact-fold__body img { width: 132px; flex: none; }
-  .contact-fold__body p { margin: 0; }
-  .contact-fold__body p + p { margin-top: 6px; }
-  .contact-fold__body > div > p:first-child { color: var(--ink); }
+  .feedback__ways { display: inline; }
+  .feedback__wx { display: inline-block; position: relative; }
+  .feedback__wx summary { display: inline; color: var(--ink); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; list-style: none; }
+  .feedback__wx summary::-webkit-details-marker { display: none; }
+  .feedback__qr {
+    position: absolute; top: calc(100% + 8px); left: 0; z-index: 10; display: block; width: max-content; max-width: 200px;
+    padding: var(--space-3); background: var(--bg); border: 1px solid var(--line); box-shadow: 0 6px 24px rgb(0 0 0 / 0.12);
+  }
+  .feedback__qr img { width: 148px; }
+  .feedback__qr .contact__mobile { margin-top: 6px; font-size: var(--text-xs); line-height: 18px; }
 
   /* ---------- 响应式 ---------- */
   @media (max-width: 1180px) {
@@ -272,7 +270,10 @@
     .roadmap__time { grid-column: 2; }
     .contact { grid-template-columns: 1fr; padding: var(--space-4); }
     .contact__qr figcaption { max-width: none; }
-    .contact-fold__body { flex-direction: column; align-items: flex-start; }
+    .feedback { align-items: flex-start; }
+    .feedback__ways { display: block; flex-basis: 100%; }
+    .feedback__wx[open] { display: inline; }
+    .feedback__qr { position: static; margin-top: 8px; box-shadow: none; }
   }
   @media (pointer: coarse) {
     .contact__mobile { display: block; }

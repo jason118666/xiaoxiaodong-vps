@@ -119,9 +119,9 @@ No muestres contraseñas, URLs de suscripción ni claves en el chat. Háblame en
 
 La documentación detallada ([solución de problemas](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [notas de diseño](./skills/xiaoxiaodong-vps/references/design.md)) de momento solo está en chino; tu IA puede leerla por ti.
 
-## ¿Necesitas ayuda?
+## Comentarios y sugerencias
 
-¿No lo entiendes, no sabes qué hacer o un problema no se resuelve? Agrega a Xiaoxiaodong (小小东) en WeChat.
+¿Tienes una sugerencia, o algo no está claro o no funciona como se describe? [Abre un issue en GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), o agrega a Xiaoxiaodong (小小东) en WeChat. Lo incorporaremos a la guía.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Código QR de WeChat de Xiaoxiaodong">
 

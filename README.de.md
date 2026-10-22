@@ -119,9 +119,9 @@ Zeige keine Passwörter, Abo-URLs oder Schlüssel im Chat. Bitte sprich mit mir 
 
 Die ausführliche Dokumentation ([Fehlerbehebung](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [Aufbau im Detail](./skills/xiaoxiaodong-vps/references/design.md)) gibt es derzeit nur auf Chinesisch; Ihre KI kann sie für Sie lesen.
 
-## Brauchen Sie Hilfe?
+## Feedback und Vorschläge
 
-Sie verstehen etwas nicht, wissen nicht weiter oder ein Problem lässt sich nicht lösen? Fügen Sie Xiaoxiaodong (小小东) auf WeChat hinzu.
+Sie haben einen Vorschlag, oder etwas ist unklar bzw. funktioniert nicht wie beschrieben? [Eröffnen Sie ein Issue auf GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues) oder fügen Sie Xiaoxiaodong (小小东) auf WeChat hinzu. Wir nehmen es in die Anleitung auf.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="WeChat-QR-Code von Xiaoxiaodong">
 

@@ -118,9 +118,9 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 자세한 문서([문제 해결](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [설계 설명](./skills/xiaoxiaodong-vps/references/design.md))는 현재 중국어로만 있습니다. AI가 대신 읽어 줄 수 있습니다.
 
-## 도움이 필요하신가요?
+## 피드백과 제안
 
-이해가 안 되거나, 어떻게 해야 할지 모르겠거나, 문제가 계속 해결되지 않으면 위챗(WeChat)으로 Xiaoxiaodong(小小东)을 추가하세요.
+제안이 있거나 설명이 불분명한 곳, 그대로 따라 해도 안 되는 부분을 발견하면 [GitHub에 Issue를 남겨 주세요](https://github.com/nevertoday/xiaoxiaodong-vps/issues). 위챗(WeChat)으로 Xiaoxiaodong(小小东)을 추가해 알려 주셔도 됩니다. 가이드에 반영하겠습니다.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Xiaoxiaodong의 위챗 QR 코드">
 

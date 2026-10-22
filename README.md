@@ -118,9 +118,9 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 遇到问题先看 [常见问题](./skills/xiaoxiaodong-vps/references/troubleshooting.md)。想了解每个设计的原因，看 [方案详解](./skills/xiaoxiaodong-vps/references/design.md)。
 
-## 需要帮忙？
+## 反馈与建议
 
-看不懂、不会操作，或者问题一直解决不了，直接加小小东微信。
+对项目有建议，或者发现哪里没写清楚、照做不成功，欢迎到 [GitHub 提 Issue](https://github.com/nevertoday/xiaoxiaodong-vps/issues)，也可以加小小东微信反馈，我们会补进教程。
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="小小东的微信二维码">
 

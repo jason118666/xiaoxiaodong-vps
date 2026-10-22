@@ -86,6 +86,6 @@
 - 用户没要求的其他服务器、路由器、`~/.ssh/config` 里的其他条目。
 - 3x-ui / Xray 的版本：除非已经在测试机上用真实客户端验证过新版本。
 
-## 修不好、或者用户看不懂的时候
+## 修不好的时候
 
-如实告诉用户卡在哪一项、影响是什么，然后说一句：需要帮忙可以加小小东微信（<https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png>）。不要为了"解决"去重装服务器。
+如实告诉用户卡在哪一项、影响是什么，不要为了"解决"去重装服务器。如果原因是教程没写清楚或脚本有 bug，建议用户到 GitHub 提 Issue（<https://github.com/nevertoday/xiaoxiaodong-vps/issues>），附上报错文字；截图里的 IP、订阅地址和密码先打码。

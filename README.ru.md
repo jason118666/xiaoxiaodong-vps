@@ -119,9 +119,9 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 Подробная документация ([решение проблем](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [описание устройства](./skills/xiaoxiaodong-vps/references/design.md)) пока есть только на китайском; ваш ИИ может прочитать её за вас.
 
-## Нужна помощь?
+## Отзывы и предложения
 
-Непонятно, что делать, или проблема никак не решается? Добавьте Xiaoxiaodong (小小东) в WeChat.
+Есть предложение или что-то описано неясно и не работает по инструкции? [Создайте issue на GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues) или добавьте Xiaoxiaodong (小小东) в WeChat. Мы дополним руководство.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="QR-код WeChat Xiaoxiaodong">
 

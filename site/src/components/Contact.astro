@@ -1,50 +1,35 @@
 ---
-// 联系小小东：card 用在首页、常见问题末尾（二维码直接显示）；fold 接在每页末尾的反馈入口下面（点开才显示二维码）
+// 反馈与建议：首页、常见问题末尾的卡片。GitHub 为主，小小东微信并列（二维码直接显示）
 import { langOf } from "../data/nav.js";
-interface Props { variant?: "card" | "fold" }
-const { variant = "card" } = Astro.props;
 const en = langOf(Astro.url.pathname) === "en";
 const QR = "https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png";
+const ISSUE = "https://github.com/nevertoday/xiaoxiaodong-vps/issues/new";
 const T = en
   ? {
-      h: "Need help?",
-      p: "Confused, not sure what to do, or stuck on a problem that won't go away? Add Xiaoxiaodong on WeChat.",
-      cap: "Scan with WeChat",
+      h: "Feedback and suggestions",
+      p: "Have a suggestion, or found a step that's unclear or doesn't work as written? Let us know and we'll add it to the guide.",
+      btn: "Give feedback on GitHub",
+      cap: "Or add Xiaoxiaodong on WeChat",
       mobile: "On a phone: long-press to save, then scan it from your photos in WeChat.",
       alt: "Xiaoxiaodong's WeChat QR code",
-      foldQ: "Need help?",
-      foldA: "Add Xiaoxiaodong on WeChat",
     }
   : {
-      h: "需要帮忙？",
-      p: "看不懂、不会操作，或者问题一直解决不了，直接加小小东微信。",
-      cap: "微信扫码添加",
+      h: "反馈与建议",
+      p: "对项目有建议，或者发现哪一步没写清楚、照做不成功，欢迎告诉我们，我们会补进教程。",
+      btn: "到 GitHub 反馈",
+      cap: "也可以加小小东微信反馈",
       mobile: "手机上：长按保存图片，再用微信扫一扫从相册识别。",
       alt: "小小东的微信二维码",
-      foldQ: "需要帮忙？",
-      foldA: "加小小东微信",
     };
 ---
-{variant === "card" ? (
-  <section class="contact" aria-labelledby="h-contact">
-    <div class="contact__text">
-      <h2 id="h-contact">{T.h}</h2>
-      <p>{T.p}</p>
-    </div>
-    <figure class="contact__qr">
-      <img src={QR} width="160" height="165" alt={T.alt} loading="lazy" decoding="async" />
-      <figcaption>{T.cap}<span class="contact__mobile">{T.mobile}</span></figcaption>
-    </figure>
-  </section>
-) : (
-  <details class="contact-fold">
-    <summary>{T.foldQ}<span>{T.foldA}</span></summary>
-    <div class="contact-fold__body">
-      <img src={QR} width="132" height="136" alt={T.alt} loading="lazy" decoding="async" />
-      <div>
-        <p>{T.p}</p>
-        <p class="contact__mobile">{T.mobile}</p>
-      </div>
-    </div>
-  </details>
-)}
+<section class="contact" aria-labelledby="h-contact">
+  <div class="contact__text">
+    <h2 id="h-contact">{T.h}</h2>
+    <p>{T.p}</p>
+    <a class="xxd-btn contact__btn" href={ISSUE} rel="noopener">{T.btn}<i data-xxd-icon="ArrowRight" data-size="16"></i></a>
+  </div>
+  <figure class="contact__qr">
+    <img src={QR} width="160" height="165" alt={T.alt} loading="lazy" decoding="async" />
+    <figcaption>{T.cap}<span class="contact__mobile">{T.mobile}</span></figcaption>
+  </figure>
+</section>
