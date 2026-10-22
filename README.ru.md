@@ -119,13 +119,11 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 Подробная документация ([решение проблем](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [описание устройства](./skills/xiaoxiaodong-vps/references/design.md)) пока есть только на китайском; ваш ИИ может прочитать её за вас.
 
-## Застряли? Ничего страшного
+## Нужна помощь?
 
-Когда настраиваешь сервер впервые, это нормально — что-то не понять или сделать всё по шагам и всё равно не получить результат. Если совсем не ясно, что делать, или попалась проблема, которую не удаётся решить, добавьте Xiaoxiaodong (小小东) в WeChat и расскажите, где застряли, — разберёмся вместе. Перед отправкой скриншотов скройте IP-адреса, ссылки на подписку и пароли.
+Непонятно, что делать, или проблема никак не решается? Добавьте Xiaoxiaodong (小小东) в WeChat.
 
-<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="QR-код WeChat Xiaoxiaodong">
-
-Отсканируйте в WeChat, чтобы добавить Xiaoxiaodong
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="QR-код WeChat Xiaoxiaodong">
 
 ## Конфиденциальность
 

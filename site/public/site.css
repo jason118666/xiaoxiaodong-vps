@@ -217,8 +217,7 @@
   }
   .contact h2 { margin: 0 0 8px; }
   .contact p { margin: 0; line-height: 1.75; }
-  .contact__text p:not(.contact__tip) { color: var(--ink); }
-  .contact .contact__tip { margin-top: 8px; color: var(--muted); font-size: var(--text-sm); line-height: 20px; }
+  .contact__text p { color: var(--ink); }
   .contact__qr { margin: 0; text-align: center; }
   .contact__qr img, .contact-fold img { display: block; height: auto; padding: 8px; background: #fff; border: 1px solid var(--line); }
   .contact__qr img { width: 160px; margin: 0 auto; }

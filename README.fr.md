@@ -119,13 +119,11 @@ N'affichez ni mots de passe, ni URLs d'abonnement, ni clés dans la discussion. 
 
 La documentation détaillée ([dépannage](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [notes de conception](./skills/xiaoxiaodong-vps/references/design.md)) n'existe pour l'instant qu'en chinois ; votre IA peut la lire pour vous.
 
-## Bloqué ? Ce n'est pas grave
+## Besoin d'aide ?
 
-Quand on configure un serveur pour la première fois, il est normal de s'y perdre, ou de tout suivre à la lettre sans que ça marche. Si vous ne savez vraiment plus quoi faire, ou si vous tombez sur un problème que vous n'arrivez pas à résoudre, ajoutez Xiaoxiaodong (小小东) sur WeChat, dites où vous êtes bloqué, et on trouvera ensemble. Avant d'envoyer des captures d'écran, masquez les adresses IP, les URL d'abonnement et les mots de passe.
+Vous ne comprenez pas, ne savez pas quoi faire, ou un problème ne se règle pas ? Ajoutez Xiaoxiaodong (小小东) sur WeChat.
 
-<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="QR code WeChat de Xiaoxiaodong">
-
-Scannez avec WeChat pour ajouter Xiaoxiaodong
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="QR code WeChat de Xiaoxiaodong">
 
 ## Confidentialité
 

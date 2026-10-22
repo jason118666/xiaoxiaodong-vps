@@ -124,13 +124,11 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 الوثائق التفصيلية ([حل المشكلات](./skills/xiaoxiaodong-vps/references/troubleshooting.md)، [شرح التصميم](./skills/xiaoxiaodong-vps/references/design.md)) متوفرة حاليًا بالصينية فقط، ويمكن للذكاء الاصطناعي قراءتها نيابة عنك.
 
-## عَلِقت؟ لا بأس
+## تحتاج إلى مساعدة؟
 
-من الطبيعي عند إعداد خادم لأول مرة ألّا تفهم كل شيء، أو أن تتبع كل الخطوات ولا ينجح الأمر. إذا لم تعرف ماذا تفعل، أو واجهت مشكلة لا تستطيع حلها، أضِف Xiaoxiaodong (小小东) على WeChat وأخبره أين توقفت، وسنحلّها معًا. قبل إرسال لقطات الشاشة، أخفِ عناوين IP وروابط الاشتراك وكلمات المرور.
+إذا لم تفهم، أو لم تعرف ماذا تفعل، أو بقيت المشكلة بلا حل، أضِف Xiaoxiaodong (小小东) على WeChat.
 
-<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="رمز QR لحساب Xiaoxiaodong على WeChat">
-
-امسح الرمز بـ WeChat لإضافة Xiaoxiaodong
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="رمز QR لحساب Xiaoxiaodong على WeChat">
 
 ## الخصوصية
 

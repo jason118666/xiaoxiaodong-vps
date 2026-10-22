@@ -7,26 +7,22 @@ const en = langOf(Astro.url.pathname) === "en";
 const QR = "https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png";
 const T = en
   ? {
-      h: "Stuck? That's okay",
-      p: "Setting up a server for the first time, it's normal not to follow everything, or to do every step and still have it not work. If you're really lost, or hit a problem the guide doesn't cover, add Xiaoxiaodong on WeChat, say where you're stuck, and we'll figure it out together.",
-      tip: "Before sending screenshots, blur out IP addresses, subscription URLs and passwords.",
-      cap: "Scan with WeChat to add Xiaoxiaodong",
-      mobile: "On a phone: long-press to save the image, then open it from your photos in WeChat's scanner.",
+      h: "Need help?",
+      p: "Confused, not sure what to do, or stuck on a problem that won't go away? Add Xiaoxiaodong on WeChat.",
+      cap: "Scan with WeChat",
+      mobile: "On a phone: long-press to save, then scan it from your photos in WeChat.",
       alt: "Xiaoxiaodong's WeChat QR code",
-      foldQ: "Still stuck after trying everything?",
+      foldQ: "Need help?",
       foldA: "Add Xiaoxiaodong on WeChat",
-      foldP: "No need to struggle alone — tell Xiaoxiaodong which step you're on and what you see.",
     }
   : {
-      h: "卡住了，也没关系",
-      p: "第一次自己配服务器，看不懂、或者照着做了却不成功，都很正常。实在不知道怎么操作，或者遇到教程里没写到的疑难问题，可以加小小东的微信，说说你卡在哪一步，一起看看怎么解决。",
-      tip: "发截图之前，记得先把 IP、订阅地址和密码打码。",
-      cap: "微信扫一扫，加小小东",
-      mobile: "在手机上看：长按图片保存，再用微信「扫一扫」从相册识别。",
+      h: "需要帮忙？",
+      p: "看不懂、不会操作，或者问题一直解决不了，直接加小小东微信。",
+      cap: "微信扫码添加",
+      mobile: "手机上：长按保存图片，再用微信扫一扫从相册识别。",
       alt: "小小东的微信二维码",
-      foldQ: "试过了还是弄不明白？",
+      foldQ: "需要帮忙？",
       foldA: "加小小东微信",
-      foldP: "不用一个人硬扛，告诉小小东你做到哪一步、看到了什么。",
     };
 ---
 {variant === "card" ? (
@@ -34,7 +30,6 @@ const T = en
     <div class="contact__text">
       <h2 id="h-contact">{T.h}</h2>
       <p>{T.p}</p>
-      <p class="contact__tip">{T.tip}</p>
     </div>
     <figure class="contact__qr">
       <img src={QR} width="160" height="165" alt={T.alt} loading="lazy" decoding="async" />
@@ -47,8 +42,7 @@ const T = en
     <div class="contact-fold__body">
       <img src={QR} width="132" height="136" alt={T.alt} loading="lazy" decoding="async" />
       <div>
-        <p>{T.foldP}</p>
-        <p class="contact__tip">{T.tip}</p>
+        <p>{T.p}</p>
         <p class="contact__mobile">{T.mobile}</p>
       </div>
     </div>
