@@ -118,6 +118,14 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 자세한 문서([문제 해결](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [설계 설명](./skills/xiaoxiaodong-vps/references/design.md))는 현재 중국어로만 있습니다. AI가 대신 읽어 줄 수 있습니다.
 
+## 막혀도 괜찮아요
+
+처음 서버를 설정하다 보면 이해가 안 되거나, 그대로 따라 했는데도 안 되는 게 당연합니다. 도저히 어떻게 해야 할지 모르겠거나 해결이 안 되는 문제가 생기면 위챗(WeChat)으로 Xiaoxiaodong(小小东)을 추가하고 어디서 막혔는지 알려 주세요. 같이 해결해 봐요. 스크린샷을 보내기 전에 IP, 구독 주소, 비밀번호는 가려 주세요.
+
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="Xiaoxiaodong의 위챗 QR 코드">
+
+위챗으로 스캔해 Xiaoxiaodong 추가하기
+
 ## 개인정보
 
 - 이 프로젝트에는 실제 서버 정보가 전혀 들어 있지 않습니다.

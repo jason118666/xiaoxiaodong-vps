@@ -1,0 +1,56 @@
+---
+// 联系小小东：card 用在首页、常见问题末尾（二维码直接显示）；fold 接在每页末尾的反馈入口下面（点开才显示二维码）
+import { langOf } from "../data/nav.js";
+interface Props { variant?: "card" | "fold" }
+const { variant = "card" } = Astro.props;
+const en = langOf(Astro.url.pathname) === "en";
+const QR = "https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png";
+const T = en
+  ? {
+      h: "Stuck? That's okay",
+      p: "Setting up a server for the first time, it's normal not to follow everything, or to do every step and still have it not work. If you're really lost, or hit a problem the guide doesn't cover, add Xiaoxiaodong on WeChat, say where you're stuck, and we'll figure it out together.",
+      tip: "Before sending screenshots, blur out IP addresses, subscription URLs and passwords.",
+      cap: "Scan with WeChat to add Xiaoxiaodong",
+      mobile: "On a phone: long-press to save the image, then open it from your photos in WeChat's scanner.",
+      alt: "Xiaoxiaodong's WeChat QR code",
+      foldQ: "Still stuck after trying everything?",
+      foldA: "Add Xiaoxiaodong on WeChat",
+      foldP: "No need to struggle alone — tell Xiaoxiaodong which step you're on and what you see.",
+    }
+  : {
+      h: "卡住了，也没关系",
+      p: "第一次自己配服务器，看不懂、或者照着做了却不成功，都很正常。实在不知道怎么操作，或者遇到教程里没写到的疑难问题，可以加小小东的微信，说说你卡在哪一步，一起看看怎么解决。",
+      tip: "发截图之前，记得先把 IP、订阅地址和密码打码。",
+      cap: "微信扫一扫，加小小东",
+      mobile: "在手机上看：长按图片保存，再用微信「扫一扫」从相册识别。",
+      alt: "小小东的微信二维码",
+      foldQ: "试过了还是弄不明白？",
+      foldA: "加小小东微信",
+      foldP: "不用一个人硬扛，告诉小小东你做到哪一步、看到了什么。",
+    };
+---
+{variant === "card" ? (
+  <section class="contact" aria-labelledby="h-contact">
+    <div class="contact__text">
+      <h2 id="h-contact">{T.h}</h2>
+      <p>{T.p}</p>
+      <p class="contact__tip">{T.tip}</p>
+    </div>
+    <figure class="contact__qr">
+      <img src={QR} width="160" height="165" alt={T.alt} loading="lazy" decoding="async" />
+      <figcaption>{T.cap}<span class="contact__mobile">{T.mobile}</span></figcaption>
+    </figure>
+  </section>
+) : (
+  <details class="contact-fold">
+    <summary>{T.foldQ}<span>{T.foldA}</span></summary>
+    <div class="contact-fold__body">
+      <img src={QR} width="132" height="136" alt={T.alt} loading="lazy" decoding="async" />
+      <div>
+        <p>{T.foldP}</p>
+        <p class="contact__tip">{T.tip}</p>
+        <p class="contact__mobile">{T.mobile}</p>
+      </div>
+    </div>
+  </details>
+)}

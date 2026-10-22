@@ -1,6 +1,7 @@
 ---
-// 首页（中英文共用）：一张图看懂、配好之后有什么、两种做法、完整路线、适不适合
+// 首页（中英文共用）：一张图看懂、配好之后有什么、两种做法、完整路线、适不适合、卡住了找谁
 import Site from "../layouts/Site.astro";
+import Contact from "../components/Contact.astro";
 import { STEPS, stepHref, link, langOf, t } from "../data/nav.js";
 const lang = langOf(Astro.url.pathname);
 const C = {
@@ -109,5 +110,7 @@ const C = {
         <div class="route"><h3><i data-xxd-icon="CircleX" data-size="18"></i>{C.fitNo}</h3><ul>{C.no.map((x) => <li>{x}</li>)}</ul></div>
       </div>
     </section>
+
+    <Contact />
   </div>
 </Site>

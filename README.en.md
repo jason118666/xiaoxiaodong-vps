@@ -120,6 +120,14 @@ Please talk to me in English.
 
 Detailed docs ([troubleshooting](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [design notes](./skills/xiaoxiaodong-vps/references/design.md)) are currently in Chinese; your AI can read them for you.
 
+## Stuck? That's okay
+
+Setting up a server for the first time, it's normal to get lost, or to follow every step and still have it not work. If you really can't work out what to do, or you hit a problem you can't solve, add Xiaoxiaodong (小小东) on WeChat, say where you're stuck, and we'll work it out together. Before sending screenshots, blur out IP addresses, subscription URLs and passwords.
+
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="Xiaoxiaodong's WeChat QR code">
+
+Scan with WeChat to add Xiaoxiaodong
+
 ## Privacy
 
 - This project contains no information about any real server.

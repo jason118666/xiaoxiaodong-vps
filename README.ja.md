@@ -119,6 +119,14 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 詳しい資料（[トラブルシューティング](./skills/xiaoxiaodong-vps/references/troubleshooting.md)、[設計の説明](./skills/xiaoxiaodong-vps/references/design.md)）は現在中国語のみです。AI に読んでもらえます。
 
+## つまずいても大丈夫
+
+初めてサーバーを設定するとき、分からなかったり、手順どおりにやってもうまくいかなかったりするのはよくあることです。どうしても分からないとき、解決できない問題に出会ったときは、WeChat で Xiaoxiaodong（小小东）を追加して、どこでつまずいたか教えてください。一緒に解決しましょう。スクリーンショットを送る前に、IP アドレス・購読 URL・パスワードは隠してください。
+
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="Xiaoxiaodong の WeChat QR コード">
+
+WeChat でスキャンして Xiaoxiaodong を追加
+
 ## プライバシー
 
 - このプロジェクトには、実在するサーバーの情報は一切含まれていません。

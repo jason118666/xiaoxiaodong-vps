@@ -210,6 +210,33 @@
   }
   .feedback a { color: var(--ink); }
 
+  /* ---------- 联系小小东 ---------- */
+  .contact {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-4) var(--space-6); align-items: center;
+    margin-top: var(--space-8); padding: var(--space-5, 20px) var(--space-6); border: 1px solid var(--line); background: var(--wash);
+  }
+  .contact h2 { margin: 0 0 8px; }
+  .contact p { margin: 0; line-height: 1.75; }
+  .contact__text p:not(.contact__tip) { color: var(--ink); }
+  .contact .contact__tip { margin-top: 8px; color: var(--muted); font-size: var(--text-sm); line-height: 20px; }
+  .contact__qr { margin: 0; text-align: center; }
+  .contact__qr img, .contact-fold img { display: block; height: auto; padding: 8px; background: #fff; border: 1px solid var(--line); }
+  .contact__qr img { width: 160px; margin: 0 auto; }
+  .contact__qr figcaption { max-width: 180px; margin-top: 8px; color: var(--muted); font-size: var(--text-xs); line-height: 18px; }
+  .contact__mobile { display: none; }
+  .contact__qr .contact__mobile { margin-top: 2px; }
+  .contact-fold { max-width: var(--read-width, 680px); margin-top: 8px; color: var(--muted); font-size: var(--text-sm); line-height: 20px; }
+  .contact-fold summary { display: flex; flex-wrap: wrap; gap: 4px 8px; padding: 0 var(--space-4); cursor: pointer; list-style: none; }
+  .contact-fold summary::-webkit-details-marker { display: none; }
+  .contact-fold summary span { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+  .contact-fold summary span::after { content: " ▸"; text-decoration: none; display: inline-block; margin-left: 2px; }
+  .contact-fold[open] summary span::after { content: " ▾"; }
+  .contact-fold__body { display: flex; gap: var(--space-4); align-items: center; margin-top: 8px; padding: var(--space-3) var(--space-4); background: var(--wash); }
+  .contact-fold__body img { width: 132px; flex: none; }
+  .contact-fold__body p { margin: 0; }
+  .contact-fold__body p + p { margin-top: 6px; }
+  .contact-fold__body > div > p:first-child { color: var(--ink); }
+
   /* ---------- 响应式 ---------- */
   @media (max-width: 1180px) {
     .site-body { grid-template-columns: 232px minmax(0, 1fr); }
@@ -244,5 +271,11 @@
     .site-brand__name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     .roadmap li { grid-template-columns: 2em minmax(0, 1fr); }
     .roadmap__time { grid-column: 2; }
+    .contact { grid-template-columns: 1fr; padding: var(--space-4); }
+    .contact__qr figcaption { max-width: none; }
+    .contact-fold__body { flex-direction: column; align-items: flex-start; }
+  }
+  @media (pointer: coarse) {
+    .contact__mobile { display: block; }
   }
 }

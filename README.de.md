@@ -119,6 +119,14 @@ Zeige keine Passwörter, Abo-URLs oder Schlüssel im Chat. Bitte sprich mit mir 
 
 Die ausführliche Dokumentation ([Fehlerbehebung](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [Aufbau im Detail](./skills/xiaoxiaodong-vps/references/design.md)) gibt es derzeit nur auf Chinesisch; Ihre KI kann sie für Sie lesen.
 
+## Hängen geblieben? Kein Problem
+
+Wer zum ersten Mal einen Server einrichtet, versteht nicht alles auf Anhieb, oder es klappt trotz aller Schritte nicht. Wenn Sie wirklich nicht weiterwissen oder auf ein Problem stoßen, das Sie nicht lösen können, fügen Sie Xiaoxiaodong (小小东) auf WeChat hinzu und schreiben Sie, wo Sie hängen – wir finden gemeinsam eine Lösung. Bevor Sie Screenshots schicken, machen Sie IP-Adressen, Abo-Links und Passwörter unkenntlich.
+
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="WeChat-QR-Code von Xiaoxiaodong">
+
+Mit WeChat scannen, um Xiaoxiaodong hinzuzufügen
+
 ## Datenschutz
 
 - Dieses Projekt enthält keinerlei Informationen über echte Server.

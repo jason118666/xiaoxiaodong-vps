@@ -119,6 +119,14 @@ Não mostre senhas, URLs de assinatura nem chaves no chat. Fale comigo em portug
 
 A documentação detalhada ([solução de problemas](./skills/xiaoxiaodong-vps/references/troubleshooting.md), [notas de projeto](./skills/xiaoxiaodong-vps/references/design.md)) por enquanto só existe em chinês; sua IA pode ler por você.
 
+## Travou? Tudo bem
+
+Na primeira vez que se configura um servidor, é normal ficar perdido, ou seguir todos os passos e mesmo assim não funcionar. Se você realmente não souber o que fazer, ou encontrar um problema que não consegue resolver, adicione Xiaoxiaodong (小小东) no WeChat, conte onde travou e a gente resolve junto. Antes de enviar capturas de tela, esconda os endereços IP, os links de assinatura e as senhas.
+
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="QR code do WeChat de Xiaoxiaodong">
+
+Escaneie com o WeChat para adicionar Xiaoxiaodong
+
 ## Privacidade
 
 - Este projeto não contém informação de nenhum servidor real.

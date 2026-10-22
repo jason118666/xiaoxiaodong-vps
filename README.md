@@ -118,6 +118,14 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 遇到问题先看 [常见问题](./skills/xiaoxiaodong-vps/references/troubleshooting.md)。想了解每个设计的原因，看 [方案详解](./skills/xiaoxiaodong-vps/references/design.md)。
 
+## 卡住了，也没关系
+
+第一次自己配服务器，看不懂、或者照着做了却不成功，都很正常。实在不知道怎么操作，或者遇到解决不了的疑难问题，可以加小小东的微信，说说你卡在哪一步，一起看看怎么解决。发截图之前，记得先把 IP、订阅地址和密码打码。
+
+<img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="180" alt="小小东的微信二维码">
+
+微信扫一扫，加小小东
+
 ## 隐私
 
 - 项目里没有任何真实服务器的信息。
