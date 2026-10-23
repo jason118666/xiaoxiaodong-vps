@@ -121,7 +121,7 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 ## フィードバック・ご提案
 
-ご提案や、分かりにくい箇所・手順どおりにやってもうまくいかない箇所があれば、[GitHub で Issue を作成](https://github.com/nevertoday/xiaoxiaodong-vps/issues)してください。WeChat で Xiaoxiaodong（小小东）を追加して伝えていただいても構いません。ガイドに反映します。
+ご提案や、分かりにくい箇所・手順どおりにやってもうまくいかない箇所があれば、[GitHub で Issue を作成](https://github.com/nevertoday/xiaoxiaodong-vps/issues)してください。WeChat で私（Xiaoxiaodong、小小东）を追加して伝えていただいても構いません。ガイドに反映します。
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Xiaoxiaodong の WeChat QR コード">
 

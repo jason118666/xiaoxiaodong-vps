@@ -122,7 +122,7 @@ Detailed docs ([troubleshooting](./skills/xiaoxiaodong-vps/references/troublesho
 
 ## Feedback and suggestions
 
-Have a suggestion, or found something unclear or not working as written? [Open an issue on GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), or add Xiaoxiaodong (小小东) on WeChat. We'll add it to the guide.
+Have a suggestion, or found something unclear or not working as written? [Open an issue on GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), or add me (Xiaoxiaodong, 小小东) on WeChat. I'll add it to the guide.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Xiaoxiaodong's WeChat QR code">
 
