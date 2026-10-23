@@ -25,7 +25,7 @@
 
 - **公网 IP 不是用户给的 IP**：连错了服务器，或者 IP 抄错了。停下来和用户核对，不要加参数强行继续。
 - **检测到已有 3x-ui 数据库**：这台机器装过别的面板。如果用户确认这是刚买的机器、上面没有要保留的东西，请他在服务商后台把系统重装为 Ubuntu 24.04 LTS，再从 connect 开始。
-- **系统不支持**：只支持 Ubuntu 22.04+ / Debian 12+。请用户在后台重装系统。
+- **系统不支持**：只支持 Ubuntu 22.04+ / Debian 12+。请用户在后台重装系统，搬瓦工开通时的默认系统多半就是这种情况。搬瓦工的步骤：KiwiVM 首页点 Stop 关机 → 左侧 Install new OS → 选 Ubuntu 24.04（x86_64）→ 勾选同意 → Reload → 几分钟后页面显示新 root 密码和 SSH 端口（只显示一次，让用户抄下）→ 状态回到 Running（没有就点 Start）。其他商家在服务器详情页找 Reinstall / Rebuild。图文版：<https://vps.xiaoxiaodong.ai/howto/reinstall-os/>。重装后按上面"重装系统后连不上"一条清旧主机密钥，再用新密码重跑 connect.sh。
 
 ## cert：IP 证书申请失败
 
