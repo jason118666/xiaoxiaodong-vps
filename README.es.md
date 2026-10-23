@@ -121,7 +121,7 @@ La documentación detallada ([solución de problemas](./skills/xiaoxiaodong-vps/
 
 ## Comentarios y sugerencias
 
-¿Tienes una sugerencia, o algo no está claro o no funciona como se describe? [Abre un issue en GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), o agrégame en WeChat (Xiaoxiaodong, 小小东). Lo incorporaré a la guía.
+¿Tienes una sugerencia, o algo no está claro o no funciona como se describe? [Abre un issue en GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues), [escríbeme por X](https://x.com/xiaoxiaodong) (@xiaoxiaodong) o agrégame en WeChat (Xiaoxiaodong, 小小东). Lo incorporaré a la guía.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Código QR de WeChat de Xiaoxiaodong">
 

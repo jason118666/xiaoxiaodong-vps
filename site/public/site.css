@@ -217,7 +217,7 @@
   }
   .contact h2 { margin: 0 0 8px; }
   .contact__text p { margin: 0; color: var(--ink); line-height: 1.75; }
-  .contact__btn { margin-top: var(--space-3); }
+  .contact__btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-3); }
   .contact__qr { margin: 0; text-align: center; }
   .contact__qr img, .feedback__qr img { display: block; height: auto; padding: 8px; background: #fff; border: 1px solid var(--line); }
   .contact__qr img { width: 160px; margin: 0 auto; }

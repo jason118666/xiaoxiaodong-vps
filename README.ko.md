@@ -120,7 +120,7 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 ## 피드백과 제안
 
-제안이 있거나 설명이 불분명한 곳, 그대로 따라 해도 안 되는 부분을 발견하면 [GitHub에 Issue를 남겨 주세요](https://github.com/nevertoday/xiaoxiaodong-vps/issues). 위챗(WeChat)으로 저(Xiaoxiaodong, 小小东)를 추가해 알려 주셔도 됩니다. 가이드에 반영하겠습니다.
+제안이 있거나 설명이 불분명한 곳, 그대로 따라 해도 안 되는 부분을 발견하면 [GitHub에 Issue를 남겨 주세요](https://github.com/nevertoday/xiaoxiaodong-vps/issues). [X로 DM](https://x.com/xiaoxiaodong)(@xiaoxiaodong)을 보내거나 위챗(WeChat)으로 저(Xiaoxiaodong, 小小东)를 추가해 알려 주셔도 됩니다. 가이드에 반영하겠습니다.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="Xiaoxiaodong의 위챗 QR 코드">
 

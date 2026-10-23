@@ -126,7 +126,7 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 ## الملاحظات والاقتراحات
 
-لديك اقتراح، أو وجدت خطوة غير واضحة أو لا تعمل كما هو مكتوب؟ [افتح Issue على GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues)، أو أضِفني على WeChat (Xiaoxiaodong، 小小东). سأضيف ذلك إلى الدليل.
+لديك اقتراح، أو وجدت خطوة غير واضحة أو لا تعمل كما هو مكتوب؟ [افتح Issue على GitHub](https://github.com/nevertoday/xiaoxiaodong-vps/issues)، أو [راسلني على X](https://x.com/xiaoxiaodong) (@xiaoxiaodong)، أو أضِفني على WeChat (Xiaoxiaodong، 小小东). سأضيف ذلك إلى الدليل.
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="رمز QR لحساب Xiaoxiaodong على WeChat">
 

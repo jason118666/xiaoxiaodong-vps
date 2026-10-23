@@ -120,7 +120,7 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 
 ## 反馈与建议
 
-对项目有建议，或者发现哪里没写清楚、照做不成功，欢迎到 [GitHub 提 Issue](https://github.com/nevertoday/xiaoxiaodong-vps/issues)，也可以加我（小小东）的微信反馈，我会补进教程。
+对项目有建议，或者发现哪里没写清楚、照做不成功，欢迎到 [GitHub 提 Issue](https://github.com/nevertoday/xiaoxiaodong-vps/issues)，也可以[在 X 上私信我](https://x.com/xiaoxiaodong)（@xiaoxiaodong），或者加我（小小东）的微信反馈，我会补进教程。
 
 <img src="https://vip.xiaoxiaodong.ai/site-assets/wechat-qr.png" width="160" alt="小小东的微信二维码">
 
