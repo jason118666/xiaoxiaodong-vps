@@ -10,6 +10,7 @@ import Checkpoint from "../../../components/Checkpoint.astro";
 import Q from "../../../components/Q.astro";
 import Tabs from "../../../components/Tabs.astro";
 import Copy from "../../../components/Copy.astro";
+import Cmd from "../../../components/Cmd.astro";
 
 ## What this step is
 
@@ -75,7 +76,7 @@ If the AI can't download the project, [download the ZIP](https://github.com/neve
 Each block below: copy → paste into the terminal → Enter → wait for it to finish, then the next. **Replace `your-IP` and `bwg` with your own.**
 
 <Callout type="warn" title="Use one terminal window throughout">
-The later commands run inside the folder you entered in "Download the setup" and use the `R=…` variable. If you close the terminal midway, reopen it and first run `cd xiaoxiaodong-vps/skills/xiaoxiaodong-vps` and `R=scripts/local/remote.sh`, then continue.
+The later commands run inside the folder you entered in "Download the setup" and use the `R=…` variable. If you close the terminal midway, reopen it and first run <Cmd c="cd xiaoxiaodong-vps/skills/xiaoxiaodong-vps" /> and <Cmd c="R=scripts/local/remote.sh" />, then continue.
 </Callout>
 
 ### 1. Download the setup

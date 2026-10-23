@@ -10,6 +10,7 @@ import Checkpoint from "../../components/Checkpoint.astro";
 import Q from "../../components/Q.astro";
 import Tabs from "../../components/Tabs.astro";
 import Copy from "../../components/Copy.astro";
+import Cmd from "../../components/Cmd.astro";
 
 ## 这一步做什么
 
@@ -74,7 +75,7 @@ AI 下载不了项目的话，可以手动 [下载 ZIP](https://github.com/never
 下面每一段都是：复制 → 粘贴到终端 → 回车 → 等它结束，再做下一段。**把命令里的 `你的IP` 和 `bwg` 换成你自己的。**
 
 <Callout type="warn" title="全程用同一个终端窗口">
-后面的命令要在「下载方案」进入的那个目录里运行，还用到了 `R=…` 这个变量。中途关了终端的话，重新打开后先运行 `cd xiaoxiaodong-vps/skills/xiaoxiaodong-vps` 和 `R=scripts/local/remote.sh`，再接着做。
+后面的命令要在「下载方案」进入的那个目录里运行，还用到了 `R=…` 这个变量。中途关了终端的话，重新打开后先运行 <Cmd c="cd xiaoxiaodong-vps/skills/xiaoxiaodong-vps" /> 和 <Cmd c="R=scripts/local/remote.sh" />，再接着做。
 </Callout>
 
 ### 1. 下载方案
