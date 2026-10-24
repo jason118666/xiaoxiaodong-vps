@@ -17,7 +17,7 @@ import Copy from "../../components/Copy.astro";
 自己的服务器换不了一个「口碑更好」的 IP，最直接的办法是退掉这台、重新买一台，新机器会分到新的 IP。
 
 <Callout type="warn">
-搬瓦工有 30 天退款保证（以它的服务条款为准），所以**发现分数低就尽早退**。退款后这台服务器会被删除，上面的东西都没了。
+搬瓦工有 30 天退款保证（以它的服务条款为准），所以**发现分数低就尽早退**，钱原路退回。退款后这台服务器会被删除，上面的东西都没了。
 </Callout>
 
 ## 1. 发邮件申请退款
@@ -66,11 +66,25 @@ Thank you!
 
 Best regards`} />
 
-## 2. 重新买一台
+## 2. 回复确认邮件
+
+提交后，搬瓦工的工作人员会发邮件跟你确认。直接回复这封邮件，再确认一次就行：
+
+<Copy id="refund-confirm" title="回复确认" code={`Hello,
+
+Yes, I confirm that I would like to cancel this VPS and receive a full refund to my original payment method.
+
+Thank you for your help.
+
+Best regards`} />
+
+二次确认后，退款会原路退回你付款时用的账户。
+
+## 3. 重新买一台
 
 退款处理好以后，照 [在搬瓦工买服务器](/howto/buy-bandwagonhost/) 重新买一台，同样记下 IP、root 密码和 SSH 端口。
 
-## 3. 部署后再测一次
+## 4. 部署后再测一次
 
 从[第 3 步「配置服务器」](/guide/3-deploy/)开始配置新机器，给它起一个新名字（旧的 `ssh 名字` 已经用不了了）。配好后再打开 [ip.net.coffee/claude](/howto/check-ip/) 看一次：泄露都没问题、评分到 70 分以上就行。
 
