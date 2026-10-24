@@ -92,7 +92,10 @@ cp -R xiaoxiaodong-vps/skills/xiaoxiaodong-vps ~/.codex/skills/
 - **软路由（OpenClash）**：同一个 Clash 订阅地址就能用，家里所有设备都走这条线路。在「配置订阅」里添加地址（别上传 yaml 文件，否则看不到流量用量，规则也不会自动更新），关闭「在线订阅转换」，内核选 Meta。
 - **已经在用 v2rayN（Windows / Mac / Linux）**：也能用，但只是备选。导入「Shadowrocket（iPhone）」那一行的订阅地址（不是 Clash 那一行），路由选「绕过大陆」，打开 TUN 防 WebRTC 泄露。这个订阅只有节点，没有 AI 分流、微信直连这些规则，所以电脑上仍然首推 Clash Verge Rev。详见 [v2rayN 教程](https://vps.xiaoxiaodong.ai/howto/v2rayn/)。
 
-导入后打开 <https://ip.net.coffee/claude/>，显示的是你服务器的 IP 就说明通了。
+导入后打开 <https://ip.net.coffee/claude/>，显示的是你服务器的 IP 就说明通了。顺便看两处：
+
+1. **先看有没有泄露**：DNS 出口不在中国，WebRTC 的 UDP 出口是你服务器的 IP（电脑上看）。
+2. **再看「Claude AI 信任评分」**：低于 70 分的话，可以发邮件给服务商（比如搬瓦工）退掉这台，重新买一台，部署好再测一次，到 70 分以上就行。邮件可以直接复制 [这几段模板](https://vps.xiaoxiaodong.ai/howto/refund-rebuy/)。
 
 更详细的设置见 [客户端与使用建议](./docs/客户端与使用建议.md)。
 

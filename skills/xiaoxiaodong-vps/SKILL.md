@@ -116,7 +116,7 @@ bash "$R" 名称 verify --full
    - 登录信息文件的路径（让用户自己打开，你不要读出来）；
    - 电脑装 Clash Verge Rev，导入文件里的 **Clash 订阅**，选"规则"模式并打开"虚拟网卡模式"（TUN，第一次按提示安装服务；只开系统代理时，浏览器的 WebRTC 会暴露真实 IP）；iPhone 用 Shadowrocket 导入 **Shadowrocket 订阅**；路由器 OpenClash 用 Clash 订阅；
    - CLIProxyAPI 现在是空的，要在管理中心添加自己的上游账号或供应商 Key；
-   - 导入后打开 <https://ip.net.coffee/claude/>，显示服务器的 IP 就说明通了；要出差的话，出发前在手机和电脑上都测一遍。
+   - 导入后打开 <https://ip.net.coffee/claude/>，显示服务器的 IP 就说明通了；重点看有没有泄露（DNS 出口不在中国、WebRTC 的 UDP 出口是服务器 IP），其次看「Claude AI 信任评分」，低于 70 分可以发邮件给服务商（比如搬瓦工）退掉这台、重新买一台，部署后再测，到 70 分以上就行，邮件模板在 <https://vps.xiaoxiaodong.ai/howto/refund-rebuy/>（不要说成「换 IP」，也不要说机房 IP 不会是满分）；要出差的话，出发前在手机和电脑上都测一遍。
    - 每个客户端怎么装、怎么检查泄露、AI 接口怎么用，都有图文教程：<https://vps.xiaoxiaodong.ai>（备用 <https://nevertoday.github.io/xiaoxiaodong-vps/>）。
 
 ## 以后的复核和维护

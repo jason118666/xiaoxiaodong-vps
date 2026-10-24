@@ -94,7 +94,10 @@ After that, just tell the AI "use xiaoxiaodong-vps to set up my new server" and 
 - **Router (OpenClash)**: the same Clash subscription URL works, so every device at home uses the line. Add it under Config Subscribe (don't upload the YAML file, or the usage bar won't show and rules won't auto-update), turn off online subscription conversion, and use the Meta core.
 - **Already using v2rayN (Windows / Mac / Linux)**: it works, but only as a fallback. Import the subscription URL from the "Shadowrocket (iPhone)" row (not the Clash row), pick the "bypass mainland China" routing, and turn on TUN against WebRTC leaks. That subscription has only the nodes — none of the AI routing or WeChat-direct rules — so Clash Verge Rev remains the recommended desktop app. See the [v2rayN guide](https://vps.xiaoxiaodong.ai/en/howto/v2rayn/).
 
-Then open <https://ip.net.coffee/claude/>. If it shows your server's IP, you're connected.
+Then open <https://ip.net.coffee/claude/>. If it shows your server's IP, you're connected. While you're there, check two things:
+
+1. **Leaks first**: the DNS exit is not in China, and WebRTC's UDP exit is your server's IP (check on a computer).
+2. **Then the Claude AI trust score**: if it's below 70, you can email your provider (for example BandwagonHost) to cancel this server, buy a new one, deploy it and test again. Once it's 70 or above, you're set. You can copy [these email templates](https://vps.xiaoxiaodong.ai/en/howto/refund-rebuy/).
 
 ## Before you travel
 

@@ -46,6 +46,7 @@ export const HOWTO = [
     { slug: "reinstall-os", title: "后台重装系统为 Ubuntu", en: { title: "Reinstall the OS as Ubuntu" } },
     { slug: "root-password-vnc", title: "后台改 root 密码、用救援控制台", en: { title: "Change the root password and use the rescue console" } },
     { slug: "traffic-and-ip", title: "查看流量、更换 IP", en: { title: "Check traffic and change the IP" } },
+    { slug: "refund-rebuy", title: "退掉服务器、重新买一台", en: { title: "Refund a server and buy a new one" } },
   ]},
   { group: "AI 工具", en: { group: "AI tools" }, items: [
     { slug: "windows-wsl", title: "Windows 安装 WSL", en: { title: "Install WSL on Windows" } },
