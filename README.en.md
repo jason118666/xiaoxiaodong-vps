@@ -100,7 +100,7 @@ Then open <https://ip.net.coffee/claude/>. If it shows your server's IP, you're 
 
 - **Set everything up and test it before you leave.** Once you're on a restricted network, downloading the project or even opening AI tools may get much harder.
 - Install the clients and import the subscriptions on both phone and computer, and check that both nodes connect.
-- If some local network can't reach your server, try another one first (hotel Wi-Fi, mobile data, another carrier). If none work, the server's IP is probably blocked there. No configuration change will fix that; ask your provider for a new IP.
+- The same server can feel faster or slower depending on where you are and which carrier you use. That's normal. If it won't connect somewhere, try another network first (hotel Wi-Fi, mobile data, another carrier). If none work, the IP is probably blocked there; your provider can give you a new one.
 - Keep the connection to yourself and your family. Don't share it.
 
 ## Checking your server later
@@ -132,8 +132,6 @@ Have a suggestion, or found something unclear or not working as written? [Open a
 - Every server's passwords, keys, subscription URLs and API keys are freshly generated during setup and stored only on the server and your own computer. The AI doesn't show them in the chat.
 - Don't post your login file, subscription URLs or keys anywhere, and don't screenshot them.
 - To report a security issue, see [SECURITY.md](./SECURITY.md).
-
-Whether you can connect, and how fast, also depends on the local network and the server's routing. This project makes sure the server is configured correctly. It can't guarantee that one IP is reachable from every country and every carrier.
 
 ## License
 
