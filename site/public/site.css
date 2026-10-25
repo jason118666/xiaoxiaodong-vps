@@ -2,32 +2,41 @@
    外壳（顶栏、左导航、正文、右目录）照 ui.xiaoxiaodong.ai 展示站的结构。 */
 @layer site {
   html { scroll-padding-top: 72px; }
-  /* 左导航的宽度：三栏和顶栏共用，顶栏的搜索框才能和正文左边对齐 */
-  :root { --site-nav-w: 248px; }
+  /* 外壳：左导航宽度 + 整页最宽 1280px。更宽的屏幕整页居中，顶栏的内容跟着同一个宽度，
+     Logo 和导航文字左对齐、右边的工具和目录右边对齐，不会一个贴屏幕边、一个在中间 */
+  :root { --site-nav-w: 248px; --site-max: 1280px; }
   body { min-height: 100vh; }
 
   /* ---------- 顶栏 ---------- */
   .site-top {
+    --site-gutter: max(0px, calc((100% - var(--site-max)) / 2));
     position: sticky; top: 0; z-index: var(--z-dock); gap: var(--space-3);
+    padding-left: calc(var(--site-gutter) + 20px); padding-right: calc(var(--site-gutter) + var(--space-4));
     background: color-mix(in srgb, var(--bg) 94%, transparent);
     backdrop-filter: blur(10px);
   }
   .site-menu { display: none; }
-  /* 窄屏时右边按钮多，左边这三个不许被挤没 */
-  .site-menu, .site-brand, .site-search { flex: none; }
+  .site-menu, .site-brand { flex: none; }
   .site-top__spacer { flex: 1; }
-  .site-appearance { display: flex; align-items: center; gap: var(--space-2); }
-  /* 宽屏：顶栏和下面用同一套列。Logo 在导航那一列、和导航文字左对齐；搜索框从正文左边开始 */
-  @media (min-width: 821px) {
-    .site-top { display: grid; grid-template-columns: var(--site-nav-w) minmax(0, 1fr) auto; column-gap: 0; padding-left: 0; }
-    .site-brand { padding-left: var(--site-nav-inset, 20px); }
-    .site-top__spacer { display: none; }
-    .site-search { justify-self: start; width: min(400px, calc(100% - var(--space-8) - var(--space-4))); margin-left: var(--space-8); }
-  }
+  .site-tools { display: flex; flex: none; align-items: center; gap: var(--space-2); }
+  .site-tools .site-search { margin-right: var(--space-2); }
+
+  /* 外观按钮：图标跟着当前是亮还是暗；选了主题色，右下角多一个那个颜色的小圆点 */
+  .site-look { position: relative; }
+  .site-look__icon { display: inline-flex; }
+  .site-look__icon[data-for="dark"], :root[data-theme="dark"] .site-look__icon[data-for="light"] { display: none; }
+  :root[data-theme="dark"] .site-look__icon[data-for="dark"] { display: inline-flex; }
+  .site-look__dot { position: absolute; right: 4px; bottom: 4px; width: 8px; height: 8px; border: 1.5px solid var(--bg); border-radius: var(--r-circle); }
+  .site-look__dot[hidden] { display: none; }
+  .site-look-pop { width: 260px; padding: var(--space-3); }
+  .site-look__seg { display: flex; margin-top: var(--space-2); }
+  .site-look__seg > * { display: inline-flex; flex: 1; align-items: center; justify-content: center; gap: 6px; min-width: 0; padding-inline: 4px; }
+  .site-look__label { margin-top: var(--space-4); }
+  .site-look-pop .xxd-swatches { display: grid; grid-template-columns: repeat(6, 22px); justify-content: space-between; row-gap: var(--space-3); margin-top: var(--space-2); }
 
   /* ---------- 三栏 ---------- */
   /* 阅读页：正文栏限宽，目录紧跟在正文后面，不贴到屏幕最右边 */
-  .site-body { display: grid; grid-template-columns: var(--site-nav-w) minmax(0, 760px) 200px; align-items: start; }
+  .site-body { display: grid; grid-template-columns: var(--site-nav-w) minmax(0, 760px) minmax(200px, 1fr); align-items: start; max-width: var(--site-max); margin-inline: auto; }
   .site-body:has(> .site-main--wide) { grid-template-columns: var(--site-nav-w) minmax(0, 1fr); }
 
   .site-nav { position: sticky; top: 56px; width: auto; height: calc(100vh - 56px); }
@@ -135,7 +144,7 @@
 
   /* ---------- 搜索、侧栏分组、列表链接 ---------- */
   .site-search {
-    display: inline-flex; flex: 0 1 260px; align-items: center; gap: 8px;
+    display: inline-flex; flex: none; width: 240px; align-items: center; gap: 8px;
     height: 32px; padding: 0 8px 0 10px;
     border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--bg);
     color: var(--muted); font: var(--text-sm) var(--font-body); cursor: pointer;
@@ -147,11 +156,6 @@
   .xxd-prose .xxd-list__item { margin: 0; }
 
   .site-lang { min-width: 3em; }
-  .site-accent { padding: var(--space-3); }
-  .site-accent__theme { display: none; margin-bottom: var(--space-4); }
-  .site-accent__theme .xxd-segmented { display: flex; margin-top: var(--space-2); }
-  .site-accent__theme .xxd-segmented > * { flex: 1; min-width: 0; padding-inline: 4px; }
-  .site-accent .xxd-swatches { display: grid; grid-template-columns: repeat(6, 22px); gap: var(--space-3); margin-top: var(--space-2); }
 
   /* ---------- 教程部件 ---------- */
   a.term { color: inherit; text-decoration: none; border-bottom: 1px dashed var(--muted-2); cursor: help; }
@@ -229,7 +233,9 @@
     .site-nav-scrim[data-open] { opacity: 1; pointer-events: auto; }
     .site-main { padding: var(--space-6) var(--space-4) 96px; }
     .site-search span, .site-search kbd { display: none; }
-    .site-search { flex: none; width: 32px; margin-left: 0; padding: 0; justify-content: center; }
+    .site-search { width: 32px; padding: 0; justify-content: center; }
+    .site-tools .site-search { margin-right: 0; }
+    .site-top { padding-left: var(--space-4); }
     .flow { grid-template-columns: 1fr; }
     .flow__arrow { flex-direction: row; padding: 2px 0; }
     .flow__arrow > :first-child { transform: rotate(90deg); }
@@ -238,10 +244,7 @@
     .pending-list { columns: 1; }
   }
   @media (max-width: 560px) {
-    .site-top, .site-appearance { gap: var(--space-2); }
-    /* 顶栏放不下亮 / 暗切换：收进主题色面板 */
-    .site-theme { display: none; }
-    .site-accent__theme { display: block; }
+    .site-top { gap: var(--space-2); }
     .site-brand__name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     .roadmap li { grid-template-columns: 2em minmax(0, 1fr); }
     .roadmap__time { grid-column: 2; }

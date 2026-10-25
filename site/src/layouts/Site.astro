@@ -19,12 +19,12 @@ interface Props {
 }
 const UI = {
   zh: { html: "zh-CN", brand: "小小东 VPS 教程", desc: "从买服务器到用上自己的线路和 AI 接口：一步一步、看得懂、照着做就会。", skip: "跳到正文", menu: "打开目录", search: "搜索教程",
-    searchPh: "搜步骤、How-to、名词、问题……", searchEmpty: "没找到，换个词试试", theme: "主题", light: "亮色", dark: "暗色", system: "跟随系统", accent: "主题色", repo: "GitHub 仓库",
+    searchPh: "搜步骤、How-to、名词、问题……", searchEmpty: "没找到，换个词试试", theme: "主题", light: "亮色", dark: "暗色", system: "跟随系统", accent: "主题色", look: "外观", repo: "GitHub 仓库",
     navLabel: "网站目录", start: "开始", home: "首页：一张图看懂", main: "主线教程（按顺序做）", pending: "编写中", ref: "查资料", howto: "How-to：具体怎么做",
     wiki: "Wiki：这是什么", faq: "常见问题", toc: "本页", tocLabel: "本页目录", hintMain: "主线教程", hintFaq: "常见问题", switchTo: "English", switchLabel: "Switch to English",
     foot: '这套方案只给自己和家人用，请遵守当地法律和各网站、AI 工具的使用规定。内容开源（MIT），源码和问题反馈在 <a href="https://github.com/nevertoday/xiaoxiaodong-vps">GitHub</a>。' },
   en: { html: "en", brand: "XXD VPS Guide", desc: "From buying a server to using your own line and AI API — step by step, easy to follow.", skip: "Skip to content", menu: "Open menu", search: "Search the guide",
-    searchPh: "Search steps, how-tos, terms, questions…", searchEmpty: "Nothing found — try another word", theme: "Theme", light: "Light", dark: "Dark", system: "System", accent: "Theme color", repo: "GitHub repository",
+    searchPh: "Search steps, how-tos, terms, questions…", searchEmpty: "Nothing found — try another word", theme: "Theme", light: "Light", dark: "Dark", system: "System", accent: "Theme color", look: "Appearance", repo: "GitHub repository",
     navLabel: "Site navigation", start: "Start", home: "Home: the big picture", main: "Main guide (in order)", pending: "In progress", ref: "Reference", howto: "How-to: how exactly",
     wiki: "Wiki: what is it", faq: "FAQ", toc: "On this page", tocLabel: "On this page", hintMain: "Main guide", hintFaq: "FAQ", switchTo: "中文", switchLabel: "切换到中文",
     foot: 'This setup is for you and your family only. Follow local laws and each site\'s and AI tool\'s terms of use. Open source (MIT) — code and feedback on <a href="https://github.com/nevertoday/xiaoxiaodong-vps">GitHub</a>.' },
@@ -74,25 +74,23 @@ const GITHUB_MARK = '<svg width="16" height="16" viewBox="0 0 16 16" fill="curre
     <header class="xxd-topbar site-top">
       <button class="xxd-btn site-menu" data-variant="ghost" data-icon-only aria-label={L.menu} id="site-menu" aria-controls="site-nav" aria-expanded="false"><i data-xxd-icon="Menu" data-size="18"></i></button>
       <a class="xxd-logo site-brand" href={link("/", lang)}><span class="xxd-logo__mark" aria-hidden="true"></span><span class="site-brand__name">{L.brand}</span></a>
-      <button class="site-search" id="site-search" type="button"><i data-xxd-icon="Search" data-size="14"></i><span>{L.search}</span><kbd class="xxd-kbd">⌘K</kbd></button>
       <span class="site-top__spacer"></span>
-      <div class="site-appearance">
-        <div class="xxd-segmented site-theme" data-xxd-segmented data-name="theme" aria-label={L.theme} id="site-theme">
-          <button role="radio" data-value="light" aria-label={L.light} data-tooltip={L.light} data-tooltip-placement="bottom"><i data-xxd-icon="Sun" data-size="14"></i></button>
-          <button role="radio" data-value="dark" aria-label={L.dark} data-tooltip={L.dark} data-tooltip-placement="bottom"><i data-xxd-icon="Moon" data-size="14"></i></button>
-          <button role="radio" data-value="system" aria-label={L.system} data-tooltip={L.system} data-tooltip-placement="bottom"><i data-xxd-icon="Contrast" data-size="14"></i></button>
-        </div>
-        <button class="xxd-btn" data-size="sm" data-variant="ghost" data-icon-only type="button" data-xxd-popover="site-accent" aria-label={L.accent} data-tooltip={L.accent} data-tooltip-placement="bottom"><i data-xxd-icon="Palette" data-size="16"></i></button>
-        <div class="xxd-popover site-accent" id="site-accent" popover>
-          <div class="site-accent__theme">
-            <p class="xxd-popover__title">{L.theme}</p>
-            <div class="xxd-segmented" data-xxd-segmented data-name="theme" aria-label={L.theme}>
-              <button role="radio" data-value="light">{L.light}</button>
-              <button role="radio" data-value="dark">{L.dark}</button>
-              <button role="radio" data-value="system">{L.system}</button>
-            </div>
+      <!-- 右边一组工具：搜索 · 外观（主题 + 主题色）· 语言 · GitHub。宽屏窄屏同一个结构，不再按宽度搬来搬去 -->
+      <div class="site-tools">
+        <button class="site-search" id="site-search" type="button" aria-label={L.search}><i data-xxd-icon="Search" data-size="14"></i><span>{L.search}</span><kbd class="xxd-kbd">⌘K</kbd></button>
+        <button class="xxd-btn site-look" data-size="sm" data-variant="ghost" data-icon-only type="button" data-xxd-popover="site-look-pop" aria-label={L.look} data-tooltip={L.look} data-tooltip-placement="bottom">
+          <span class="site-look__icon" data-for="light"><i data-xxd-icon="Sun" data-size="16"></i></span>
+          <span class="site-look__icon" data-for="dark"><i data-xxd-icon="Moon" data-size="16"></i></span>
+          <span class="site-look__dot" id="site-look-dot" hidden></span>
+        </button>
+        <div class="xxd-popover site-look-pop" id="site-look-pop" popover>
+          <p class="xxd-popover__title">{L.theme}</p>
+          <div class="xxd-segmented site-look__seg" data-xxd-segmented data-name="theme" role="radiogroup" aria-label={L.theme}>
+            <button role="radio" data-value="light"><i data-xxd-icon="Sun" data-size="14"></i>{L.light}</button>
+            <button role="radio" data-value="dark"><i data-xxd-icon="Moon" data-size="14"></i>{L.dark}</button>
+            <button role="radio" data-value="system"><i data-xxd-icon="Contrast" data-size="14"></i>{L.system}</button>
           </div>
-          <p class="xxd-popover__title">{L.accent} · <span id="site-accent-name"></span></p>
+          <p class="xxd-popover__title site-look__label">{L.accent} · <span id="site-accent-name"></span></p>
           <div class="xxd-swatches" role="radiogroup" data-xxd-segmented aria-label={L.accent} id="site-accent-swatches"></div>
         </div>
         <a class="xxd-btn site-lang" data-size="sm" data-variant="ghost" href={other} hreflang={lang === "en" ? "zh-CN" : "en"} aria-label={L.switchLabel}>{L.switchTo}</a>
@@ -156,8 +154,7 @@ const GITHUB_MARK = '<svg width="16" height="16" viewBox="0 0 16 16" fill="curre
       (() => {
         const T = window.XxdTheme, X = window.Xxd;
         if (!T || !X) return;
-        // 主题：读当前设置，改了写回（boot.js 已在首帧前应用）
-        // 顶栏一组；窄屏时顶栏放不下，主题色面板里另有一组（只在窄屏显示），两组同步
+        // 外观面板：主题 + 主题色。读当前设置，改了写回（boot.js 已在首帧前应用，下次打开首帧就是这个样子）
         const segs = document.querySelectorAll('[data-xxd-segmented][data-name="theme"]');
         const sync = () => {
           const s = { ...T.DEFAULT_SETTINGS, ...T.read() };
@@ -168,7 +165,7 @@ const GITHUB_MARK = '<svg width="16" height="16" viewBox="0 0 16 16" fill="curre
           }
         };
         for (const seg of segs) seg.addEventListener("xxd:change", (e) => { T.set({ theme: e.detail.value }); sync(); });
-        // 主题色：用 xxd 的色块（ACCENT_PRESETS），选中后 boot.js 记住，下次打开首帧就是这个颜色
+        // 主题色：用 xxd 的色块（ACCENT_PRESETS）
         const sw = document.getElementById("site-accent-swatches");
         const swName = document.getElementById("site-accent-name");
         const en = document.documentElement.lang === "en";
@@ -193,6 +190,10 @@ const GITHUB_MARK = '<svg width="16" height="16" viewBox="0 0 16 16" fill="curre
             b.tabIndex = on ? 0 : -1;
           }
           swName.textContent = nameOf(a);
+          // 外观按钮右下角的小圆点：选了主题色才出现，就是那个颜色
+          const dot = document.getElementById("site-look-dot");
+          dot.hidden = !a;
+          if (a) dot.style.background = a;
         };
         sw.addEventListener("xxd:change", (e) => { T.set({ accent: e.detail.value }); syncAccent(); });
         syncAccent();
