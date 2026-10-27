@@ -15,7 +15,7 @@ export const FAQ_EN = [
   ]},
   { id: "speed", title: "Speed and stability", items: [
     ["Why is it slower in the evening?", "From 8 to 11 pm, routes from China abroad are most congested — like rush hour. The server's bandwidth is rarely the bottleneck. If it matters a lot, choose a plan with a better route."],
-    ["It suddenly stopped connecting. What should I do?", "First try another network (mobile data, other Wi-Fi). Still nothing? Have AI health-check the server. If the server is fine but it still won't connect where you are, the IP has probably been restricted there. Your provider can give you a new one; then have AI reconfigure the server."],
+    ["It suddenly stopped connecting. What should I do?", "First try another network (mobile data, other Wi-Fi). Still nothing? Have AI health-check the server. If the server is fine but it still won't connect where you are, the IP is probably blocked in mainland China. BandwagonHost and DMIT can both change it (usually for a fee; when it's free is in the How-to \"IP blocked in China\"). Afterwards, reinstall the OS and set the server up again."],
     ["If the main node fails, does it switch to the backup?", "Yes. The subscription's \"auto switch\" group tests regularly and moves to the backup node when the main one is down. You can also pick one manually."],
     ["The speed test is low. Is the server bad?", "Not necessarily. The test site, the time of day and your home Wi-Fi all affect results. See the how-to \"Run and read a speed test\"."],
   ]},
