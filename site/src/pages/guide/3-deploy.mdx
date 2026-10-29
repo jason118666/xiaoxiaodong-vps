@@ -28,13 +28,14 @@ import Cmd from "../../components/Cmd.astro";
 
 ### 1. 把这段话发给 AI
 
-在终端里打开 `claude` 或 `codex`，复制下面这段，**改好 IP 和名字**后发给它：
+打开你的 AI 工具（终端里的 `claude`、`codex`，或者桌面版、编辑器里的 AI 都行，只要通过了第 2 步的测试），复制下面这段，**改好 IP 和名字**后发给它：
 
 <Copy id="prompt" title="复制给 AI 的话" code={`请按「小小东 VPS」方案配置我新买的服务器。
 
 方案地址：https://github.com/nevertoday/xiaoxiaodong-vps
 请先把这个项目下载到本机，完整阅读 skills/xiaoxiaodong-vps/SKILL.md，
 严格按里面的步骤和规则，用项目里的脚本完成部署和验收。
+如果你不能在我的电脑上执行命令，请直接告诉我，不要让我一条条手动敲命令。
 
 我的服务器：
 - IP：
@@ -51,7 +52,7 @@ import Cmd from "../../components/Cmd.astro";
 
 ### 2. 按 AI 的提示输入一次密码
 
-AI 会请你在终端里**自己输入**服务器的 root 密码（输入时屏幕不显示，是正常的）。
+AI 会请你在终端里**自己输入**服务器的 root 密码（输入时屏幕不显示，是正常的）。用的不是 Claude Code 的话，AI 会给你一条命令，复制到第 2 步打开的终端里运行，按提示输入密码，再回到 AI 那边告诉它好了。
 
 <Callout type="tip" title="看到以 ! 开头的命令">
 在 Claude Code 里，AI 可能让你输入一条以 `!` 开头的命令。直接把整行粘贴到 Claude Code 的输入框，回车，它会在终端里提示你输入密码。`!` 的意思是「这条命令由你亲自运行」，密码因此不会经过 AI。
@@ -71,6 +72,10 @@ AI 下载不了项目的话，可以手动 [下载 ZIP](https://github.com/never
 
 </div>
 <div slot="manual">
+
+<Callout type="tip">
+这条路线是给手边没有能执行命令的 AI 的人。有 Claude Code、Codex 这类工具的话，用「让 AI 来配」，不用自己敲。
+</Callout>
 
 下面每一段都是：复制 → 粘贴到终端 → 回车 → 等它结束，再做下一段。**把命令里的 `你的IP` 和 `bwg` 换成你自己的。**
 

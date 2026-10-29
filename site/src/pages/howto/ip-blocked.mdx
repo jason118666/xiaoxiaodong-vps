@@ -18,7 +18,9 @@ IP 被墙的典型样子：
 - 让 AI 给服务器体检，一切正常；在境外（或者用别的梯子）能正常登录服务器；
 - 常见的是 **ping 得通，但所有端口都连不上**（只封了 TCP）；也有 ping 都不通的。
 
-想自己确认：打开 [itdog.cn 的 TCPing](https://www.itdog.cn/tcping/)，输入 `服务器IP:443` 测一次，再换 `:22` 测一次。国内大部分测试点都超时、而服务器体检正常，基本就是被墙了。
+想自己确认：在浏览器打开 `https://tcp.ping.pe/服务器IP:443`，再把 `:443` 换成 `:22` 测一次。表格最下面 `China` 开头的几行里，**只看 ISP 是 China Telecom、China Unicom、China Mobile 的那 6 行**：它们都是 `failed`，而其他国家都是 `successful`，基本就是被墙了。ISP 是 Tencent 的几行别看，测 22 端口时正常的 IP 也会 failed。
+
+也可以用 [itdog.cn 的 TCPing](https://www.itdog.cn/tcping/)，国内测试点更多：国内大部分测试点都超时、而服务器体检正常，同样说明被墙了。
 
 <Callout type="warn">
 换 IP 之前，先排除自己这边的问题：电脑上其他 VPN、加速器关掉没有，客户端是不是用的最新订阅。只是个别网络连不上、换个网络就好，一般不是被墙。

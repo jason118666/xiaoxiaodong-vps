@@ -28,13 +28,14 @@ Afterwards:
 
 ### 1. Send this message to the AI
 
-Open `claude` or `codex` in the terminal, copy the message below, **fill in the IP and name**, and send it:
+Open your AI tool (`claude` or `codex` in the terminal, or a desktop or editor AI — anything that passed the test in step 2), copy the message below, **fill in the IP and name**, and send it:
 
 <Copy id="prompt" title="Message for the AI" code={`Please configure my new server with the "xiaoxiaodong VPS" setup.
 
 Setup: https://github.com/nevertoday/xiaoxiaodong-vps
 Download the project first, read skills/xiaoxiaodong-vps/SKILL.md in full,
 and follow its steps and rules strictly, using the project's scripts for deployment and verification.
+If you can't run commands on my computer, tell me so directly instead of having me type commands one by one.
 Please talk to me in English and save the login file in English.
 
 My server:
@@ -52,7 +53,7 @@ What to change:
 
 ### 2. Type the password once when asked
 
-The AI will ask you to **type** the server's root password in the terminal yourself (nothing shows while typing — that's normal).
+The AI will ask you to **type** the server's root password in the terminal yourself (nothing shows while typing — that's normal). If you're not using Claude Code, the AI gives you a command: run it in the terminal you opened in step 2, type the password when asked, then go back and tell the AI it's done.
 
 <Callout type="tip" title="A command starting with !">
 In Claude Code, the AI may ask you to enter a command that starts with `!`. Paste the whole line into Claude Code's input box and press Enter; it then prompts for the password in the terminal. `!` means "you run this command yourself", so the password never passes through the AI.
@@ -72,6 +73,10 @@ If the AI can't download the project, [download the ZIP](https://github.com/neve
 
 </div>
 <div slot="manual">
+
+<Callout type="tip">
+This route is for people without an AI that can run commands. If you have a tool like Claude Code or Codex, use "Let AI do it" instead of typing.
+</Callout>
 
 Each block below: copy → paste into the terminal → Enter → wait for it to finish, then the next. **Replace `your-IP` and `bwg` with your own.**
 

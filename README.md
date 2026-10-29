@@ -43,6 +43,7 @@
 方案地址：https://github.com/nevertoday/xiaoxiaodong-vps
 请先把这个项目下载到本机，完整阅读 skills/xiaoxiaodong-vps/SKILL.md，
 严格按里面的步骤和规则，用项目里的脚本完成部署和验收。
+如果你不能在我的电脑上执行命令，请直接告诉我，不要让我一条条手动敲命令。
 
 我的服务器：
 - IP：

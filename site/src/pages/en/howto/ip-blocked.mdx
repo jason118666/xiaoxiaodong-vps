@@ -18,7 +18,9 @@ What a blocked IP usually looks like:
 - An AI health check says the server is fine, and you can log in to it from outside China (or over another VPN);
 - Most often **ping still works but every port times out** (only TCP is blocked); sometimes ping fails too.
 
-To check it yourself, open [itdog.cn TCPing](https://www.itdog.cn/tcping/), test `your-server-IP:443`, then `:22`. If most test points in mainland China time out while the health check passes, the IP is almost certainly blocked.
+To check it yourself, open `https://tcp.ping.pe/your-server-IP:443` in a browser, then again with `:22` instead of `:443`. In the rows starting with `China` at the bottom, **look only at the 6 rows whose ISP is China Telecom, China Unicom or China Mobile**: if they're all `failed` while other countries are `successful`, the IP is almost certainly blocked. Ignore the Tencent rows — on port 22 they fail even for a healthy IP.
+
+[itdog.cn TCPing](https://www.itdog.cn/tcping/) works too and has more test points in China: if most of them time out while the health check passes, the IP is blocked.
 
 <Callout type="warn">
 Before changing the IP, rule out your own side: other VPNs or game accelerators turned off, and the app using the latest subscription. If only one network fails and others work, it usually isn't a block.
