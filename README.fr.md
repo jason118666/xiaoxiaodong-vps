@@ -27,9 +27,13 @@ En ce moment, prenez **BandwagonHost**. Le réseau est stable, c'est celui que j
 
 L'offre de ce lien inclut **1 To de trafic par mois**, largement assez pour vous et votre famille.
 
+Si cette offre est en rupture de stock et que c'est urgent, prenez celle-ci, mieux équipée : **2 To de trafic par mois** et 2 Go de RAM, dans le même centre de données CN2 GIA de Los Angeles.
+
+**[Acheter BandwagonHost (offre supérieure)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+
 [DMIT](https://www.dmit.io/aff.php?aff=23544) est bien aussi, mais il est en rupture de stock. Inutile d'attendre.
 
-> Ce sont mes deux liens de parrainage. Je peux toucher une commission si vous achetez par leur biais, et je consacrerai ce revenu à des actions caritatives. Prix et disponibilité selon les sites officiels.
+> Ce sont tous mes liens de parrainage. Je peux toucher une commission si vous achetez par leur biais, et je consacrerai ce revenu à des actions caritatives. Prix et disponibilité selon les sites officiels.
 
 Choisissez **Ubuntu 24.04** comme système. Une fois le serveur prêt, notez trois informations dans le panneau : **IP du serveur, mot de passe root (ou fichier de clé) et port SSH**.
 

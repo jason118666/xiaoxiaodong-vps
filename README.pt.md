@@ -27,9 +27,13 @@ No momento, vá de **BandwagonHost**. A rede é estável e é o que eu mesmo uso
 
 O plano deste link inclui **1 TB de tráfego por mês**, o suficiente para você e sua família.
 
+Se esse plano estiver sem estoque e você tiver pressa, este tem configuração melhor: **2 TB de tráfego por mês** e 2 GB de RAM, no mesmo data center CN2 GIA de Los Angeles.
+
+**[Comprar BandwagonHost (configuração melhor)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+
 [DMIT](https://www.dmit.io/aff.php?aff=23544) também é bom, mas está sem estoque agora. Não precisa esperar.
 
-> Os dois são meus links de indicação. Posso receber uma comissão se você comprar por eles, e vou usar essa renda em trabalhos de caridade. Preços e estoque conforme os sites oficiais.
+> Todos são meus links de indicação. Posso receber uma comissão se você comprar por eles, e vou usar essa renda em trabalhos de caridade. Preços e estoque conforme os sites oficiais.
 
 Escolha **Ubuntu 24.04** como sistema. Quando o servidor estiver pronto, anote três coisas do painel: **IP do servidor, senha de root (ou arquivo de chave) e porta SSH**.
 

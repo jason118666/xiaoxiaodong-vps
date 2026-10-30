@@ -27,9 +27,13 @@ Right now, go with **BandwagonHost**. The network is stable and it's what I use 
 
 The plan in this link includes **1 TB of traffic per month** — plenty for you and your family.
 
+If that plan is out of stock and you need a server now, this one has a better spec: **2 TB of traffic per month** and 2 GB of RAM, in the same Los Angeles CN2 GIA data center.
+
+**[Buy BandwagonHost (better spec)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+
 [DMIT](https://www.dmit.io/aff.php?aff=23544) is also good, but it's out of stock at the moment. No need to wait for it.
 
-> Both are my referral links. I may earn a commission if you buy through them, and I will use that income for charitable work. Prices and stock are as shown on the official sites.
+> These are all my referral links. I may earn a commission if you buy through them, and I will use that income for charitable work. Prices and stock are as shown on the official sites.
 
 Choose **Ubuntu 24.04** as the system. Once the server is ready, write down three things from the control panel: **server IP, root password (or key file) and SSH port**.
 

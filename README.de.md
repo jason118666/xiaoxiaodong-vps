@@ -27,9 +27,13 @@ Nehmen Sie derzeit **BandwagonHost**. Das Netz ist stabil, und ich nutze es selb
 
 Der Tarif hinter diesem Link enthält **1 TB Datenvolumen pro Monat** – genug für Sie und Ihre Familie.
 
+Ist dieser Tarif ausverkauft und Sie brauchen den Server sofort, nehmen Sie diesen besser ausgestatteten: **2 TB Datenvolumen pro Monat** und 2 GB RAM, im selben CN2-GIA-Rechenzentrum in Los Angeles.
+
+**[BandwagonHost kaufen (bessere Ausstattung)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+
 [DMIT](https://www.dmit.io/aff.php?aff=23544) ist auch gut, aber im Moment ausverkauft. Warten lohnt sich nicht.
 
-> Beides sind meine Empfehlungslinks. Wenn Sie darüber kaufen, erhalte ich unter Umständen eine Provision; diese Einnahmen verwende ich für wohltätige Zwecke. Preise und Verfügbarkeit laut den offiziellen Websites.
+> Alle Links hier sind meine Empfehlungslinks. Wenn Sie darüber kaufen, erhalte ich unter Umständen eine Provision; diese Einnahmen verwende ich für wohltätige Zwecke. Preise und Verfügbarkeit laut den offiziellen Websites.
 
 Wählen Sie **Ubuntu 24.04** als System. Sobald der Server bereit ist, notieren Sie aus dem Kundenbereich drei Dinge: **Server-IP, root-Passwort (oder Schlüsseldatei) und SSH-Port**.
 
