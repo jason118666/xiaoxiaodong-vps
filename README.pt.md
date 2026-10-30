@@ -23,13 +23,11 @@ Como funciona: você compra seu próprio servidor no exterior, deixa uma IA conf
 
 No momento, vá de **BandwagonHost**. A rede é estável e é o que eu mesmo uso:
 
-**[Comprar BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[Comprar BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-O plano deste link inclui **1 TB de tráfego por mês**, o suficiente para você e sua família.
+O plano deste link inclui **2 TB de tráfego por mês** e 2 GB de RAM, em um data center CN2 GIA de Los Angeles — mais do que suficiente para você e sua família.
 
-Se esse plano estiver sem estoque e você tiver pressa, este tem configuração melhor: **2 TB de tráfego por mês** e 2 GB de RAM, no mesmo data center CN2 GIA de Los Angeles.
-
-**[Comprar BandwagonHost (configuração melhor)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+O ~~[plano de 1 TB](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ que eu recomendava antes está sem estoque e não dá para comprar agora.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) também é bom, mas está sem estoque agora. Não precisa esperar.
 

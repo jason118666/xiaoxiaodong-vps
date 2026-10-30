@@ -23,13 +23,11 @@ How it works: buy your own overseas server, let an AI set it up with this projec
 
 Right now, go with **BandwagonHost**. The network is stable and it's what I use myself:
 
-**[Buy BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[Buy BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-The plan in this link includes **1 TB of traffic per month** — plenty for you and your family.
+The plan in this link includes **2 TB of traffic per month** and 2 GB of RAM, in a Los Angeles CN2 GIA data center — more than enough for you and your family.
 
-If that plan is out of stock and you need a server now, this one has a better spec: **2 TB of traffic per month** and 2 GB of RAM, in the same Los Angeles CN2 GIA data center.
-
-**[Buy BandwagonHost (better spec)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+The ~~[1 TB plan](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ I recommended before is out of stock and can't be ordered right now.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) is also good, but it's out of stock at the moment. No need to wait for it.
 

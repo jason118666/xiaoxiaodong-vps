@@ -25,13 +25,11 @@
 
 ننصح حاليًا بشراء **BandwagonHost** مباشرة؛ شبكته مستقرة وأنا أستخدمه بنفسي:
 
-**[شراء BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[شراء BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-تتضمن الباقة في هذا الرابط **1 تيرابايت من البيانات شهريًا**، وهذا يكفيك أنت وعائلتك.
+تتضمن الباقة في هذا الرابط **2 تيرابايت من البيانات شهريًا** وذاكرة 2 غيغابايت، في مركز بيانات CN2 GIA في لوس أنجلوس، وهذا يكفيك أنت وعائلتك بسهولة.
 
-إذا كانت هذه الباقة غير متوفرة وكنت مستعجلًا، فاختر هذه الباقة الأفضل: **2 تيرابايت من البيانات شهريًا** وذاكرة 2 غيغابايت، في مركز البيانات نفسه CN2 GIA في لوس أنجلوس.
-
-**[شراء باقة BandwagonHost الأفضل](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+الباقة التي نصحت بها سابقًا ~~[1 تيرابايت](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ غير متوفرة حاليًا ولا يمكن شراؤها.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) جيد أيضًا، لكنه غير متوفر حاليًا، فلا داعي للانتظار.
 

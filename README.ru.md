@@ -23,13 +23,11 @@
 
 Сейчас берите **BandwagonHost**: сеть стабильная, я и сам им пользуюсь.
 
-**[Купить BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[Купить BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-Тариф по этой ссылке включает **1 ТБ трафика в месяц** — этого хватит вам и вашей семье.
+Тариф по этой ссылке включает **2 ТБ трафика в месяц** и 2 ГБ памяти, дата-центр CN2 GIA в Лос-Анджелесе — с запасом хватит вам и вашей семье.
 
-Если этого тарифа нет в наличии, а сервер нужен срочно, возьмите этот, помощнее: **2 ТБ трафика в месяц** и 2 ГБ памяти, тот же дата-центр CN2 GIA в Лос-Анджелесе.
-
-**[Купить BandwagonHost (тариф помощнее)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+Прежний ~~[тариф на 1 ТБ](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ сейчас распродан, купить его нельзя.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) тоже хорош, но сейчас его нет в наличии. Ждать не нужно.
 

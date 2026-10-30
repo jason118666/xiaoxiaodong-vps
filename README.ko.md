@@ -23,13 +23,11 @@
 
 지금은 **BandwagonHost**를 바로 사는 것을 추천합니다. 회선이 안정적이고, 저도 계속 쓰고 있습니다.
 
-**[BandwagonHost 구매하기](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[BandwagonHost 구매하기](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-이 링크의 요금제는 **매월 1TB 트래픽**이 포함되어 있어 가족이 함께 써도 충분합니다.
+이 링크의 요금제는 **매월 2TB 트래픽**, 메모리 2GB, 로스앤젤레스 CN2 GIA 데이터센터로 가족이 함께 써도 넉넉합니다.
 
-이 요금제가 품절이고 급하다면, 사양이 더 좋은 아래 요금제를 고르세요. **매월 2TB 트래픽**, 메모리 2GB에 같은 로스앤젤레스 CN2 GIA 데이터센터입니다.
-
-**[BandwagonHost 상위 요금제 구매하기](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+전에 추천했던 ~~[1TB 요금제](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~는 현재 품절이라 구매할 수 없습니다.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544)도 좋지만 현재 품절입니다. 기다릴 필요는 없습니다.
 

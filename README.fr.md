@@ -23,13 +23,11 @@ Le principe : vous achetez votre propre serveur à l'étranger, une IA le config
 
 En ce moment, prenez **BandwagonHost**. Le réseau est stable, c'est celui que j'utilise moi-même :
 
-**[Acheter BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[Acheter BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-L'offre de ce lien inclut **1 To de trafic par mois**, largement assez pour vous et votre famille.
+L'offre de ce lien inclut **2 To de trafic par mois** et 2 Go de RAM, dans un centre de données CN2 GIA à Los Angeles : largement de quoi faire pour vous et votre famille.
 
-Si cette offre est en rupture de stock et que c'est urgent, prenez celle-ci, mieux équipée : **2 To de trafic par mois** et 2 Go de RAM, dans le même centre de données CN2 GIA de Los Angeles.
-
-**[Acheter BandwagonHost (offre supérieure)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+L'~~[offre 1 To](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ que je recommandais avant est en rupture de stock et ne peut pas être commandée.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) est bien aussi, mais il est en rupture de stock. Inutile d'attendre.
 

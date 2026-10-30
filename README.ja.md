@@ -23,13 +23,11 @@
 
 いまは **BandwagonHost** をそのまま買うのがおすすめです。回線が安定していて、私自身も使い続けています。
 
-**[BandwagonHost を購入する](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[BandwagonHost を購入する](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-このリンクのプランは**毎月 1TB の転送量**付きで、家族で使っても十分です。
+このリンクのプランは**毎月 2TB の転送量**、メモリ 2GB、ロサンゼルスの CN2 GIA データセンターで、家族で使っても余裕があります。
 
-このプランが在庫切れで急ぐ場合は、より上位のこちらを選べます。**毎月 2TB の転送量**、メモリ 2GB で、同じロサンゼルスの CN2 GIA データセンターです。
-
-**[BandwagonHost 上位プランを購入する](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+以前おすすめしていた ~~[1TB プラン](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ は現在在庫切れで購入できません。
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) も良いのですが、現在は在庫切れです。待つ必要はありません。
 

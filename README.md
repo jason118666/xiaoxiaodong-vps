@@ -23,13 +23,11 @@
 
 现在推荐直接买**搬瓦工**，线路稳定，我自己一直在用：
 
-**[购买搬瓦工 BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[购买搬瓦工 BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-这个链接里的套餐每月 **1T 流量**，个人和家人日常使用足够。
+这个链接里的套餐每月 **2T 流量**、2G 内存，洛杉矶 CN2 GIA 机房，个人和家人日常使用绰绰有余。
 
-如果这款缺货，急用的话可以买配置更好的这款：每月 **2T 流量**、2G 内存，同一个洛杉矶 CN2 GIA 机房。
-
-**[购买搬瓦工（配置更好）](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+原来推荐的 ~~[1T 套餐](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ 现在缺货，点进去买不了。
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) 也不错，但现在缺货，不用等。
 

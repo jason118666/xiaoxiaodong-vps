@@ -23,13 +23,11 @@ So geht's: Sie kaufen einen eigenen Server im Ausland, lassen ihn von einer KI m
 
 Nehmen Sie derzeit **BandwagonHost**. Das Netz ist stabil, und ich nutze es selbst:
 
-**[BandwagonHost kaufen](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)**
+**[BandwagonHost kaufen](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
-Der Tarif hinter diesem Link enthält **1 TB Datenvolumen pro Monat** – genug für Sie und Ihre Familie.
+Der Tarif hinter diesem Link enthält **2 TB Datenvolumen pro Monat** und 2 GB RAM, im CN2-GIA-Rechenzentrum in Los Angeles – mehr als genug für Sie und Ihre Familie.
 
-Ist dieser Tarif ausverkauft und Sie brauchen den Server sofort, nehmen Sie diesen besser ausgestatteten: **2 TB Datenvolumen pro Monat** und 2 GB RAM, im selben CN2-GIA-Rechenzentrum in Los Angeles.
-
-**[BandwagonHost kaufen (bessere Ausstattung)](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
+Der bisher empfohlene ~~[1-TB-Tarif](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ ist ausverkauft und lässt sich derzeit nicht bestellen.
 
 [DMIT](https://www.dmit.io/aff.php?aff=23544) ist auch gut, aber im Moment ausverkauft. Warten lohnt sich nicht.
 
