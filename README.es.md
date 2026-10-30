@@ -62,6 +62,7 @@ Solo tienes que cambiar tres cosas:
 - **IP**: la IP del servidor que aparece en el panel.
 - **Acceso**: si tu proveedor te dio un archivo de clave, cámbialo por `archivo de clave: ruta del archivo` (un zip vale).
 - **Nombre**: cambia `bwg` por el nombre que quieras. Después, con escribir `ssh ese-nombre` entrarás en el servidor.
+- **BandwagonHost (recomendado)**: añade al final la línea `- VEID y API Key de BandwagonHost: …` (página «API» del menú izquierdo de KiwiVM, [cómo encontrarlos](https://vps.xiaoxiaodong.ai/en/howto/traffic-and-ip/)). Así las apps leen el cupo de tráfico, el consumo y el día de reinicio directamente de BandwagonHost, y cuadran tanto en el plan de 1 TB como en el de 2 TB. Sin ellos también funciona; entonces se muestra sobre 1000 GB al mes.
 
 Si el usuario y el puerto no son root / 22, cambia "por defecto" por los valores reales.
 

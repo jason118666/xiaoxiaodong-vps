@@ -50,6 +50,7 @@ What to change:
 - **Login**: if the provider gave you a key file, change it to `key file: path` (a zip works too).
 - **SSH user and port**: if they aren't root and 22, replace "default" with the real values.
 - **Name**: replace `bwg` with your chosen name.
+- **BandwagonHost (recommended)**: add a line at the end, `- BandwagonHost VEID and API Key: …` (on the API page in KiwiVM's left menu — [how to find them](/en/howto/traffic-and-ip/)). Your apps then read the traffic quota, usage and reset day straight from BandwagonHost, so 1 TB and 2 TB plans both show correctly. It works without them too; usage is then shown against 1000 GB a month.
 
 ### 2. Type the password once when asked
 
@@ -122,7 +123,7 @@ bash $R bwg sub
 bash $R bwg cliproxy
 bash $R bwg maint`} />
 
-Each stage ends with `xxx 完成` ("xxx done"), e.g. `cert 完成`. Apps show traffic against 1000 GB a month by default (the recommended BandwagonHost plan's traffic), with the reset day worked out from the provisioning date. If your plan differs, add `--quota-gb QUOTA --reset-day DAY` to the end of the `init` line (e.g. `--quota-gb 500 --reset-day 1`).
+Each stage ends with `xxx 完成` ("xxx done"), e.g. `cert 完成`. Apps show traffic against 1000 GB a month by default, with the reset day worked out from the provisioning date. If your plan differs, add `--quota-gb QUOTA --reset-day DAY` to the end of the `init` line (e.g. `--quota-gb 500 --reset-day 1`). On a BandwagonHost server you can instead run `bash $R bwg kiwivm --veid VEID --key-file FILE-CONTAINING-THE-KEY` after `sub`, and the quota, usage and reset day come straight from its dashboard — see [Traffic](/en/howto/traffic-and-ip/).
 
 <Callout type="warn" title="If you see 停止： (stopped)">
 When a stage stops, it prints `停止：` ("stopped:") and a reason. Fix the cause and **rerun the same stage** — every stage can be run again. Common causes and fixes: [troubleshooting notes](https://github.com/nevertoday/xiaoxiaodong-vps/blob/main/skills/xiaoxiaodong-vps/references/troubleshooting.md) (in Chinese).

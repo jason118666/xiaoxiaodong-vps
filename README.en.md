@@ -62,6 +62,7 @@ You only need to change three things:
 - **IP**: the server IP from the control panel.
 - **Login**: if your provider gave you a key file, change it to `key file: path to the file` (a zip is fine).
 - **Name**: replace `bwg` with any name you like. Afterwards, typing `ssh that-name` logs you into the server.
+- **BandwagonHost (recommended)**: add a line at the end, `- BandwagonHost VEID and API Key: …` (on the API page in KiwiVM's left menu — [how to find them](https://vps.xiaoxiaodong.ai/en/howto/traffic-and-ip/)). Your apps then read the traffic quota, usage and reset day straight from BandwagonHost, so 1 TB and 2 TB plans both show correctly. It works without them too; usage is then shown against 1000 GB a month.
 
 If the user and port are not root / 22, replace "default" with the real values.
 

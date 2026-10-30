@@ -62,6 +62,7 @@ skills/xiaoxiaodong-vps/SKILL.md を最後まで読んでください。
 - **IP**：管理画面に表示されているサーバー IP。
 - **ログイン方法**：業者から鍵ファイルをもらった場合は `鍵ファイル：ファイルのパス` に変えてください（zip でも可）。
 - **名前**：`bwg` を好きな名前に。以後は `ssh その名前` と打つだけでサーバーに入れます。
+- **BandwagonHost の場合（おすすめ）**：最後に `- BandwagonHost の VEID と API Key：…` の一行を足してください（KiwiVM 左メニューの「API」ページ、[探し方](https://vps.xiaoxiaodong.ai/en/howto/traffic-and-ip/)）。クライアントの転送量の上限・使用量・リセット日が BandwagonHost の管理画面から直接読み込まれ、1TB でも 2TB でも一致します。なくても使えますが、その場合は毎月 1000GB として表示されます。
 
 ユーザーとポートが root / 22 でない場合は、「デフォルト」を実際の値に変えてください。
 

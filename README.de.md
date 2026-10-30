@@ -62,6 +62,7 @@ Nur drei Stellen müssen Sie ändern:
 - **IP**: die Server-IP aus dem Kundenbereich.
 - **Anmeldung**: Wenn Ihr Anbieter eine Schlüsseldatei mitgegeben hat, ersetzen Sie es durch `Schlüsseldatei: Pfad zur Datei` (ein Zip geht auch).
 - **Name**: Ersetzen Sie `bwg` durch einen beliebigen Namen. Danach genügt `ssh dieser-name`, um sich am Server anzumelden.
+- **BandwagonHost (empfohlen)**: Hängen Sie am Ende eine Zeile `- BandwagonHost VEID und API Key: …` an (Seite „API“ im linken Menü von KiwiVM, [so finden Sie sie](https://vps.xiaoxiaodong.ai/en/howto/traffic-and-ip/)). Dann lesen Ihre Apps Datenvolumen, Verbrauch und Rücksetztag direkt bei BandwagonHost – bei 1 TB wie bei 2 TB stimmt die Anzeige. Ohne geht es auch; dann wird gegen 1000 GB pro Monat angezeigt.
 
 Wenn Benutzer und Port nicht root / 22 sind, ersetzen Sie „Standard“ durch die echten Werte.
 

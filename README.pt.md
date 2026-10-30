@@ -62,6 +62,7 @@ Só três coisas mudam:
 - **IP**: o IP do servidor que aparece no painel.
 - **Acesso**: se o provedor deu um arquivo de chave, troque por `arquivo de chave: caminho do arquivo` (zip também serve).
 - **Nome**: troque `bwg` pelo nome que quiser. Depois, basta digitar `ssh esse-nome` para entrar no servidor.
+- **BandwagonHost (recomendado)**: adicione no fim a linha `- VEID e API Key do BandwagonHost: …` (página “API” no menu esquerdo do KiwiVM, [como encontrar](https://vps.xiaoxiaodong.ai/en/howto/traffic-and-ip/)). Assim os apps leem a cota de tráfego, o uso e o dia de reinício direto do BandwagonHost, e batem tanto no plano de 1 TB quanto no de 2 TB. Sem eles também funciona; o uso aparece sobre 1000 GB por mês.
 
 Se o usuário e a porta não forem root / 22, troque "padrão" pelos valores reais.
 

@@ -62,6 +62,7 @@ Il n'y a que trois choses à changer :
 - **IP** : l'IP du serveur indiquée dans le panneau.
 - **Connexion** : si votre fournisseur vous a donné un fichier de clé, remplacez par `fichier de clé : chemin du fichier` (un zip convient).
 - **Nom** : remplacez `bwg` par le nom de votre choix. Ensuite, il suffit de taper `ssh ce-nom` pour entrer sur le serveur.
+- **BandwagonHost (recommandé)** : ajoutez à la fin la ligne `- VEID et API Key BandwagonHost : …` (page « API » du menu de gauche de KiwiVM, [comment les trouver](https://vps.xiaoxiaodong.ai/en/howto/traffic-and-ip/)). Vos applications liront alors le quota, la consommation et le jour de remise à zéro directement chez BandwagonHost : l'affichage est juste pour l'offre 1 To comme pour 2 To. Sans eux, ça marche aussi ; l'usage est alors affiché sur 1000 Go par mois.
 
 Si l'utilisateur et le port ne sont pas root / 22, remplacez « par défaut » par les vraies valeurs.
 
