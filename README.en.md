@@ -31,7 +31,7 @@ The plan in this link includes **2 TB of traffic per month** and 2 GB of RAM, in
 
 The ~~[1 TB plan](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ I recommended before is out of stock and can't be ordered right now.
 
-[DMIT](https://www.dmit.io/aff.php?aff=23544) is also good, but it's out of stock at the moment. No need to wait for it.
+[DMIT](https://www.dmit.io/aff.php?aff=23544) is another one I really like using, but it's out of stock at the moment. No need to wait for it.
 
 > These are all my referral links. I may earn a commission if you buy through them, and I will use that income for charitable work. Prices and stock are as shown on the official sites.
 

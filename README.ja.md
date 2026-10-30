@@ -31,7 +31,7 @@
 
 以前おすすめしていた ~~[1TB プラン](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ は現在在庫切れで購入できません。
 
-[DMIT](https://www.dmit.io/aff.php?aff=23544) も良いのですが、現在は在庫切れです。待つ必要はありません。
+[DMIT](https://www.dmit.io/aff.php?aff=23544) も私が気に入って使っているサーバーですが、残念ながら現在は在庫切れです。待つ必要はありません。
 
 > いずれも私の紹介リンクです。リンク経由で購入されると私に紹介料が入る場合があり、その収入は慈善活動に使います。価格と在庫は公式サイトをご確認ください。
 

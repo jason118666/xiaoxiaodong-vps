@@ -31,7 +31,7 @@
 
 原来推荐的 ~~[1T 套餐](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ 现在缺货，点进去买不了。
 
-[DMIT](https://www.dmit.io/aff.php?aff=23544) 也不错，但现在缺货，不用等。
+[DMIT](https://www.dmit.io/aff.php?aff=23544) 也是我很喜欢用的，可惜现在缺货，不用等。
 
 > 这些都是我的邀请链接，通过它们购买我可能获得佣金，这部分收入我会用于慈善相关工作。价格和库存以官网为准。
 

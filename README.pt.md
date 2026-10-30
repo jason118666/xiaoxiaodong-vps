@@ -31,7 +31,7 @@ O plano deste link inclui **2 TB de tráfego por mês** e 2 GB de RAM, em um dat
 
 O ~~[plano de 1 TB](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ que eu recomendava antes está sem estoque e não dá para comprar agora.
 
-[DMIT](https://www.dmit.io/aff.php?aff=23544) também é bom, mas está sem estoque agora. Não precisa esperar.
+[DMIT](https://www.dmit.io/aff.php?aff=23544) é outro que eu gosto muito de usar, mas infelizmente está sem estoque agora. Não precisa esperar.
 
 > Todos são meus links de indicação. Posso receber uma comissão se você comprar por eles, e vou usar essa renda em trabalhos de caridade. Preços e estoque conforme os sites oficiais.
 

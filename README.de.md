@@ -31,7 +31,7 @@ Der Tarif hinter diesem Link enthält **2 TB Datenvolumen pro Monat** und 2 GB R
 
 Der bisher empfohlene ~~[1-TB-Tarif](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ ist ausverkauft und lässt sich derzeit nicht bestellen.
 
-[DMIT](https://www.dmit.io/aff.php?aff=23544) ist auch gut, aber im Moment ausverkauft. Warten lohnt sich nicht.
+[DMIT](https://www.dmit.io/aff.php?aff=23544) nutze ich ebenfalls sehr gern, aber es ist im Moment leider ausverkauft. Warten lohnt sich nicht.
 
 > Alle Links hier sind meine Empfehlungslinks. Wenn Sie darüber kaufen, erhalte ich unter Umständen eine Provision; diese Einnahmen verwende ich für wohltätige Zwecke. Preise und Verfügbarkeit laut den offiziellen Websites.
 

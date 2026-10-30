@@ -31,7 +31,7 @@ L'offre de ce lien inclut **2 To de trafic par mois** et 2 Go de RAM, dans un ce
 
 L'~~[offre 1 To](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=87&billingcycle=quarterly&configoption%5B17%5D=55)~~ que je recommandais avant est en rupture de stock et ne peut pas être commandée.
 
-[DMIT](https://www.dmit.io/aff.php?aff=23544) est bien aussi, mais il est en rupture de stock. Inutile d'attendre.
+[DMIT](https://www.dmit.io/aff.php?aff=23544) fait aussi partie de mes préférés, mais il est malheureusement en rupture de stock. Inutile d'attendre.
 
 > Ce sont tous mes liens de parrainage. Je peux toucher une commission si vous achetez par leur biais, et je consacrerai ce revenu à des actions caritatives. Prix et disponibilité selon les sites officiels.
 
