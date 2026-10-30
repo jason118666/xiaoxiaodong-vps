@@ -21,7 +21,9 @@ How it works: buy your own overseas server, let an AI set it up with this projec
 
 ### 1. Buy a server
 
-Right now, go with **BandwagonHost**. The network is stable and it's what I use myself:
+Right now, go with **BandwagonHost** — it's what I use myself.
+
+I recommend this kind of server because of **lessons I paid for with real money and learned the hard way**: its routes are optimized for connections from mainland China, and it's stable.
 
 **[Buy BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 

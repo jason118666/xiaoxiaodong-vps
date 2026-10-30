@@ -21,7 +21,9 @@
 
 ### 1. 买一台服务器
 
-现在推荐直接买**搬瓦工**，线路稳定，我自己一直在用：
+现在推荐直接买**搬瓦工**，我自己一直在用。
+
+推荐这种服务器，是我**真金白银砸出来的经验、头破血流换来的教训**：它的线路针对国内做了优化，而且稳。
 
 **[购买搬瓦工 BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 

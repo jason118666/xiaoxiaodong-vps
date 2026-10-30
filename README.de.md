@@ -21,7 +21,9 @@ So geht's: Sie kaufen einen eigenen Server im Ausland, lassen ihn von einer KI m
 
 ### 1. Server kaufen
 
-Nehmen Sie derzeit **BandwagonHost**. Das Netz ist stabil, und ich nutze es selbst:
+Nehmen Sie derzeit **BandwagonHost** – ich nutze es selbst.
+
+Dass ich genau diese Art Server empfehle, ist eine **teuer bezahlte und schmerzhaft gelernte Lektion**: Die Leitungen sind für Verbindungen aus Festlandchina optimiert, und sie laufen stabil.
 
 **[BandwagonHost kaufen](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 

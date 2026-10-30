@@ -21,7 +21,9 @@ Cómo funciona: compras tu propio servidor en el extranjero, dejas que una IA lo
 
 ### 1. Compra un servidor
 
-Ahora mismo, elige **BandwagonHost**. La red es estable y es el que uso yo:
+Ahora mismo, elige **BandwagonHost**; es el que uso yo.
+
+Recomiendo este tipo de servidor porque es **una lección que pagué con mi dinero y aprendí a base de golpes**: sus rutas están optimizadas para conectarse desde China continental y son estables.
 
 **[Comprar BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 

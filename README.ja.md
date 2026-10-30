@@ -21,7 +21,9 @@
 
 ### 1. サーバーを買う
 
-いまは **BandwagonHost** をそのまま買うのがおすすめです。回線が安定していて、私自身も使い続けています。
+いまは **BandwagonHost** をそのまま買うのがおすすめです。私自身も使い続けています。
+
+この種のサーバーを勧めるのは、**自腹を切って何度も痛い目を見て得た教訓**だからです。回線が中国本土からの接続向けに最適化されていて、しかも安定しています。
 
 **[BandwagonHost を購入する](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 

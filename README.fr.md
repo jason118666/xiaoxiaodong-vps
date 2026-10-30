@@ -21,7 +21,9 @@ Le principe : vous achetez votre propre serveur à l'étranger, une IA le config
 
 ### 1. Achetez un serveur
 
-En ce moment, prenez **BandwagonHost**. Le réseau est stable, c'est celui que j'utilise moi-même :
+En ce moment, prenez **BandwagonHost** ; c'est celui que j'utilise moi-même.
+
+Si je recommande ce type de serveur, c'est **une leçon payée de ma poche et apprise à la dure** : ses routes sont optimisées pour les connexions depuis la Chine continentale, et elles sont stables.
 
 **[Acheter BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
