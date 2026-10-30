@@ -23,7 +23,7 @@ Le principe : vous achetez votre propre serveur à l'étranger, une IA le config
 
 En ce moment, prenez **BandwagonHost** ; c'est celui que j'utilise moi-même.
 
-Si je recommande ce type de serveur, c'est **une leçon payée de ma poche et apprise à la dure** : ses routes sont optimisées pour les connexions depuis la Chine continentale, et elles sont stables.
+Si je recommande ce type de serveur, c'est **une leçon payée de ma poche et apprise à la dure** : ses routes sont optimisées pour les connexions depuis la Chine continentale, et elles sont si stables que je ne jure plus que par elles.
 
 **[Acheter BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 

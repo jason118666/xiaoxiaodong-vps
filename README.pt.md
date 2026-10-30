@@ -23,7 +23,7 @@ Como funciona: você compra seu próprio servidor no exterior, deixa uma IA conf
 
 No momento, vá de **BandwagonHost**; é o que eu mesmo uso.
 
-Recomendo esse tipo de servidor porque é **uma lição que paguei do meu bolso e aprendi da forma mais dura**: as rotas são otimizadas para conexões a partir da China continental, e são estáveis.
+Recomendo esse tipo de servidor porque é **uma lição que paguei do meu bolso e aprendi da forma mais dura**: as rotas são otimizadas para conexões a partir da China continental, e são tão estáveis que virei fã de carteirinha.
 
 **[Comprar BandwagonHost](https://bandwagonhost.com/aff.php?aff=83651&a=add&pid=88&billingcycle=quarterly&configoption%5B17%5D=55)**
 
